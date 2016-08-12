@@ -1,0 +1,28 @@
+site_name: My Docs
+theme: slate
+
+pages:
+- Documentation: 'index.md'
+- Kwf(General Features):
+    - Config:
+        - 'Overview': 'kwf-general-features/config.md'
+        - 'Https': 'kwf-general-features/config/https.md'
+        - 'PreLogin': 'kwf-general-features/config/prelogin.md'
+    - Models:
+        - 'Overview': 'kwf-general-features/models.md'
+        - 'Setup Database': 'kwf-general-features/models/setup-database.md'
+        - 'Basic Usage': 'kwf-general-features/models/basic-usage.md'
+        - 'Relations': 'kwf-general-features/models/relations.md'
+        - 'Select (query)': 'kwf-general-features/models/select-query.md'
+        - 'Expressions': 'kwf-general-features/models/expressions.md'
+        - 'Stored Expressions': 'kwf-general-features/models/stored-expressions.md'
+        - 'Filters': 'kwf-general-features/models/filters.md'
+        - 'Modify Row Behavior': 'kwf-general-features/models/modify-row-behavior.md'
+        - 'Row__toString': 'kwf-general-features/models/row-tostring.md'
+        - 'Export/Import': 'kwf-general-features/models/export-import.md'
+        - 'Deleted Flag': 'kwf-general-features/models/deleted-flag.md'
+        - 'Mappings': 'kwf-general-features/models/mappings.md'
+        - 'Iterators': 'kwf-general-features/models/iterators.md'
+        - 'Updates/Structure Changes': 'kwf-general-features/models/updates-structure-changes.md'
+
+
