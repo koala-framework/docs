@@ -115,6 +115,17 @@ pages:
 
     - DomPDF: 'kwf-general-features/dom-pdf.md'
 
+- Kwc (CMS):
+    - Introduction: 'kwc-cms/introduction.md'
+
+    - Component Tree:
+                - 'Overview': 'kwc-cms/component-tree.md'
+                - 'Standard Structure': 'kwc-cms/component-tree/standard-structure.md'
+                - 'Settings': 'kwc-cms/component-tree/settings.md'
+                - 'Generators': 'kwc-cms/component-tree/generators.md'
+                - 'Navigation': 'kwc-cms/component-tree/navigation.md'
+                - 'Component Ids': 'kwc-cms/component-tree/component-ids.md'
+                - 'Custom Table Generator': 'kwc-cms/component-tree/custom-table-generator.md'
 
 
 
