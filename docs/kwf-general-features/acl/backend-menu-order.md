@@ -1,6 +1,6 @@
 #MENU ORDER
 
-With` kwf 3.8` it is possible to set the setting "order" for resources.
+With `kwf 3.8` it is possible to set the setting "order" for resources.
 The default order value is 0.
 Negative and positive values are possible.
 

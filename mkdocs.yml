@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Koala Framework Dokumentation
 theme: slate
 
 pages:
@@ -18,11 +18,106 @@ pages:
         - 'Stored Expressions': 'kwf-general-features/models/stored-expressions.md'
         - 'Filters': 'kwf-general-features/models/filters.md'
         - 'Modify Row Behavior': 'kwf-general-features/models/modify-row-behavior.md'
-        - 'Row__toString': 'kwf-general-features/models/row-tostring.md'
-        - 'Export/Import': 'kwf-general-features/models/export-import.md'
+        - 'Row __toString': 'kwf-general-features/models/row-tostring.md'
+        - 'Export / Import': 'kwf-general-features/models/export-import.md'
         - 'Deleted Flag': 'kwf-general-features/models/deleted-flag.md'
         - 'Mappings': 'kwf-general-features/models/mappings.md'
         - 'Iterators': 'kwf-general-features/models/iterators.md'
-        - 'Updates/Structure Changes': 'kwf-general-features/models/updates-structure-changes.md'
+        - 'Updates/Structure Changes': 'kwf-general-features/models/update-structure-changes.md'
+    - Controllers:
+        - 'Overview': 'kwf-general-features/controllers.md'
+        - 'Quick Start': 'kwf-general-features/controllers/quick-start.md'
+        - 'Cli Controllers': 'kwf-general-features/controllers/cli-controllers.md'
+    - Users:
+            - 'Overview': 'kwf-general-features/users.md'
+            - 'User Model': 'kwf-general-features/users/user-model.md'
+            - 'Config': 'kwf-general-features/users/config.md'
+            - 'User Management': 'kwf-general-features/users/user-management.md'
+            - 'Auth Methods': 'kwf-general-features/users/auth-methods.md'
+            - 'Auth: Google OAuth Login': 'kwf-general-features/users/auth-google-login.md'
+    - Acl:
+            - 'Overview': 'kwf-general-features/acl.md'
+            - 'Quick Start': 'kwf-general-features/acl/quick-start.md'
+            - 'Usage in Controllers': 'kwf-general-features/acl/usage-in-controllers.md'
+            - 'Backend Menu': 'kwf-general-features/acl/backend-menu.md'
+            - 'Backend Login Appearance': 'kwf-general-features/acl/backend-login-appearance.md'
+            - 'Backend Menu Order': 'kwf-general-features/acl/backend-menu-order.md'
+    - ExtJS Integration:
+                - 'Overview': 'kwf-general-features/extjs-integration.md'
+                - 'Quick Start': 'kwf-general-features/extjs-integration/quick-start.md'
+                - 'Start Controller': 'kwf-general-features/extjs-integration/start-controller.md'
+                - 'Set Dashboard in backend': 'kwf-general-features/extjs-integration/set-dashboard-in-backend.md'
+    - Ajax / Connection:
+                - 'Overview': 'kwf-general-features/ajax-connection.md'
+                - 'Keep Alive': 'kwf-general-features/ajax-connection/keep-alive.md'
+    - AutoForm & AutoGrid:
+                - 'Overview': 'kwf-general-features/autoform-autogrid.md'
+                - 'AutoForm': 'kwf-general-features/autoform-autogrid/autoform.md'
+                - 'AutoForm: columns': 'kwf-general-features/autoform-autogrid/autoform-columns.md'
+                - 'AutoGrid': 'kwf-general-features/autoform-autogrid/autogrid.md'
+                - 'AutoGrid: renderer': 'kwf-general-features/autoform-autogrid/autogrid-renderer.md'
+                - 'AutoGrid: filter': 'kwf-general-features/autoform-autogrid/autogrid-filter.md'
+                - 'AutoGrid: Load an id in backend with get parameter': 'kwf-general-features/autoform-autogrid/autogrid-load.md'
+                - 'AutoGrid: editDialog': 'kwf-general-features/autoform-autogrid/autogrid-editdialog.md'
+                - 'AutoGrid: grouping': 'kwf-general-features/autoform-autogrid/autogrid-grouping.md'
+                - 'Tree+Grid binding': 'kwf-general-features/autoform-autogrid/tree-grid-binding.md'
+                - 'Custom form/grid class': 'kwf-general-features/autoform-autogrid/custom-form-grid-class.md'
+                - 'Custom styling': 'kwf-general-features/autoform-autogrid/custom-styling.md'
+    - Kwf_Form:
+                - 'Overview': 'kwf-general-features/kwf-form.md'
+                - 'Field_ComboBox & Select': 'kwf-general-features/kwf-form/field-combobox.md'
+                - 'Container_FieldSet': 'kwf-general-features/kwf-form/container-fieldset.md'
+                - 'Container_Cards': 'kwf-general-features/kwf-form/container-cards.md'
+                - 'Container_Columns': 'kwf-general-features/kwf-form/container-columns.md'
+                - 'Form Validator': 'kwf-general-features/kwf-form/form-validator.md'
+                - 'Form to edit Row': 'kwf-general-features/kwf-form/form-to-edit-row.md'
+    - Translation:
+                - 'Overview': 'kwf-general-features/translation.md'
+                - Parsing (3.9+):
+                    - 'Overview': 'kwf-general-features/translation/parsing.md'
+                    - 'Web': 'kwf-general-features/translation/parsing/web.md'
+                    - 'Package': 'kwf-general-features/translation/parsing/package.md'
+                    - 'Framework': 'kwf-general-features/translation/parsing/framework.md'
+                - Localization (3.9+):
+                    - 'Overview': 'kwf-general-features/translation/localization.md'
+                    - 'Web': 'kwf-general-features/translation/localization/web.md'
+                    - 'Package': 'kwf-general-features/translation/localization/package.md'
+                    - 'Framework': 'kwf-general-features/translation/localization/framework.md'
+                - 'Update to 3.9': 'kwf-general-features/translation/update.md'
+                - 'Localization (< 3.9)': 'kwf-general-features/translation/localization-under-threepointnine.md'
+                - 'Parsing (< 3.9)': 'kwf-general-features/translation/parsing-under-threepointnine.md'
+                - 'Create Lingohub Project': 'kwf-general-features/translation/create-lingohub-project.md'
+    - Asset Dependencies:
+                - 'Overview': 'kwf-general-features/asset-dependencies.md'
+                - 'Modernizr': 'kwf-general-features/asset-dependencies/modernizr.md'
+    - Media Output:
+                - 'Overview': 'kwf-general-features/media-output.md'
+                - 'Scale Images': 'kwf-general-features/media-output/scale-images.md'
+    - Caching:
+                - 'Overview': 'kwf-general-features/caching.md'
+                - 'Caches': 'kwf-general-features/caching/caches.md'
+                - 'Memcache': 'kwf-general-features/caching/memcache.md'
+                - 'Clear Cache': 'kwf-general-features/caching/clear-cache.md'
+    - Mails:
+                - 'Overview': 'kwf-general-features/mails.md'
+                - 'Config': 'kwf-general-features/mails/config.md'
+                - 'Kwf_Mail': 'kwf-general-features/mails/kwf-mail.md'
+                - 'Kwf_Mail_Template': 'kwf-general-features/mails/kwf-mail-template.md'
+                - 'Styling': 'kwf-general-features/mails/styling.md'
+
+    - Process Control: 'kwf-general-features/process-control.md'
+
+    - Debugging Techniques: 'kwf-general-features/debugging-techniques.md'
+
+    - Performance:
+                - 'Overview': 'kwf-general-features/performance.md'
+                - 'Profiling Controllers': 'kwf-general-features/performance/profiling-controllers.md'
+
+    - DomPDF: 'kwf-general-features/dom-pdf.md'
+
+
+
+
+
 
 
