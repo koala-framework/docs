@@ -158,6 +158,15 @@ pages:
                 - 'Generator Flags': 'kwc-cms/customize-components/generator-flags.md'
                 - 'BEM': 'kwc-cms/customize-components/bem.md'
                 - 'Rules': 'kwc-cms/customize-components/rules.md'
+    - Customize Master:
+                - 'Overview': 'kwc-cms/customize-master.md'
+                - 'Styling': 'kwc-cms/customize-master/styling.md'
+                - 'Box': 'kwc-cms/customize-master/box.md'
+                - 'Remove Box': 'kwc-cms/customize-master/remove-box.md'
+                - 'MultiBox': 'kwc-cms/customize-master/multi-box.md'
+                - 'Add additional Master': 'kwc-cms/customize-master/add-additional-master.md'
+                - 'Reset Master for a specific page in web': 'kwc-cms/customize-master/reset-master.md'
+
 
 
 
