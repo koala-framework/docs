@@ -278,6 +278,9 @@ Stable: 2013-08-13
 ###New Features:
 
 * Themes (omg!)
+
+![Screenshot](img/omgthemes.jpg)
+
 * responsive lightbox
 * improved usability for Paragraphs admin
 * controllers directory in web includes all subfolders now dynamically, if you update an older web you can delete the lines in bootstrap.php where you include these (frontController)
@@ -442,7 +445,7 @@ Stable: 7.12.11
 
 - Vpc_Abstract_Cards: Unterkomponente per Cards aus wählen, LinkTag basiert jetzt auf dieser
 
-  Komponente
+    Komponente
 
 - new Generator_Box_StaticSelect: allows the user to select from different components
 
@@ -454,7 +457,7 @@ Stable: 7.12.11
 
 - Component.yml: instead of creating Component.php it is possible to create Component.yml for easier creating
 
-  custom components
+    custom components
 
 - childSettings: Components can change the settings of their children without inheriting
 
@@ -468,7 +471,7 @@ Stable: 7.12.11
 
 - There can be multiple Newsletter components, but only one per subroot
 
-  Subscribers and categories will be per newsletter component
+     Subscribers and categories will be per newsletter component
 
 
 ####Possibly incompatible Changes:
@@ -477,7 +480,7 @@ Stable: 7.12.11
 
 - breite von innerContent, TwoColumns u.a. *nicht* mehr im css einstellen, sondern in Komponenten Settings
 
-  Fixe Breiteneinstellungen gehören generell nicht mehr ins css
+     Fixe Breiteneinstellungen gehören generell nicht mehr ins css
 
 - Vps_User_Model is not a service model, that changed to Vps_User_Service_Model
 
@@ -495,7 +498,7 @@ Stable: 7.12.11
 
 - Kwc_Directories_List_Component: method getItemDirectoryClasses must be implemented
 
-  and staticall return all possible directory componentClasses
+    and staticall return all possible directory componentClasses
 
 
 ####handled by vkwf/scripts/koalarize-rename-web update script:
@@ -533,7 +536,7 @@ Stable: 03.03.11
 
 - HtmlEditor: enableBlocks setting gibts nicht mehr, wurde in FormatBlock plugin ausgelagert und
 
-  müsste manuell zu plugins hinzugefügt werden (bevorzugt wird Text-Komponente!)
+    müsste manuell zu plugins hinzugefügt werden (bevorzugt wird Text-Komponente!)
 
 - simple /sitemap.xml, ohne änderungsdatum (bei Komponentenweb immer aktiv)
 
@@ -591,13 +594,13 @@ Stable: 03.03.11
 
 - Expr_SmallerDate, Expr_HigherDate -> entfernt; Expr_Smaller kann dafür auch mit
 
-  Vps_Date und Vps_DateTime umgehen
+    Vps_Date und Vps_DateTime umgehen
 
 - Expr_Equal (Equals ist deprected)
 
 - Menü-Komponenten: TemplateVars wurden geändert, ist jetzt ein array. Alle überschriebenen
 
-  Templates müssen angepasst werden (bzw. schaun obs wirklich überschrieben werden muss)
+    Templates müssen angepasst werden (bzw. schaun obs wirklich überschrieben werden muss)
 
 - frontControllerClass MUSS in application/config.ini angegeben werden
 
@@ -637,13 +640,13 @@ Stable: 16.08.10
 
 - needsParentComponentClass Setting, damit wird die $parentComponentClass bei getSettings
 
-  übergeben
+    übergeben
 
 - ExtConfig ist eigene Klasse - statt Admin::getExtConfig, setzen über extConfig Setting
 
 - Vpc_List_Switch hat transitions (fade ist jetzt standard) und die weiter-pfeile
 
-  funktionieren über das ende hinaus und fangen wieder von vorn an
+    funktionieren über das ende hinaus und fangen wieder von vorn an
 
 - Directory Administration: es gibt jetzt ExtConfigTabs
 
@@ -656,25 +659,26 @@ Stable: 16.08.10
 
 - editComponents werden im Seitenbaum nur mehr berücksichtigt wenn direkt unter der bearbeitenden Komponente liegen
 
-  (indirekt nur wenn der ganze Pfad editComponents eingestellt hat)
+    (indirekt nur wenn der ganze Pfad editComponents eingestellt hat)
 
-- Directories Administration: o Admin::_getContentClass gibts nicht mehr
+- Directories Administration: 
+    - Admin::_getContentClass gibts nicht mehr
 
-                              o idTemplate muss nicht mehr gesetzt werden
+    - idTemplate muss nicht mehr gesetzt werden
 
 - editComponents werden auch bei Paragraphs berücksichtigt
 
 - Vpc_Basic_Flash_Component gibts nicht mehr, stattdessen Flash_Code und Flash_Upload
 
-  Vpc_Basic_Flash_Component mit Upload (nicht Url) wird nicht autom. konvertiert
+    Vpc_Basic_Flash_Component mit Upload (nicht Url) wird nicht autom. konvertiert
 
 - Form_Field::validate gibt jetzt nicht nur mehr ein array mit Validierungsmessages zurueck sondern
 
-  ein array mit field und message
+    ein array mit field und message
 
 - Vpc_Columns::getSettings beöntigt $parentComponentClass Argument, muss bei abgeleiteten
 
-  durchgeschliffen werden
+    durchgeschliffen werden
 
 - Vpc_List_Switch hat options, müssen im Template ausgegeben werden
 
@@ -682,7 +686,7 @@ Stable: 16.08.10
 
 - Vpc_Abstract_List_*Admin und Vpc_Abstract_Composite_*Admin gibts nicht mehr, stattdessen
 
-  sollte die passende extConfig Einstellung gesetzt werden
+    sollte die passende extConfig Einstellung gesetzt werden
 
 - Update auf Zend 1.10.7
 
@@ -711,29 +715,29 @@ Stable: 09.06.10
 
 - Vpc_Columns erben von Abstract_List
 
-    o TemplateVars: columns umbenannt in listItems
+    - TemplateVars: columns umbenannt in listItems
 
-    o generator columns umbenannt in child
+    - generator columns umbenannt in child
 
 - Directories Kategorien sind jetzt pro Komponente
 
-    o eigene Tabelle, kein Pool mehr
+    - eigene Tabelle, kein Pool mehr
 
-    o Updatescript gibts für News und Events
+    - Updatescript gibts für News und Events
 
 - Vps_Component_Plugin_Password_Component::isLoggedId in isLoggedIn umbenannt
 
 - config->vpc->childComponents wird direkt in getSetting verwendet und
 
-  nicht mehr druebergespielt, ist flexibler (commit cf4a0a2)
+       nicht mehr druebergespielt, ist flexibler (commit cf4a0a2)
 
 - Newsletter:
 
-    o Strukturänderungen
+    - Strukturänderungen
 
-    o Standardmodel von Users auf Subscribers umgestellt
+    - Standardmodel von Users auf Subscribers umgestellt
 
-    o auf jeden Fall alles durchtesten beim Umstellen
+    - auf jeden Fall alles durchtesten beim Umstellen
 
 
 ##== 1.8 ==
