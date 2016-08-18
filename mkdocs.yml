@@ -166,8 +166,21 @@ pages:
                 - 'MultiBox': 'kwc-cms/customize-master/multi-box.md'
                 - 'Add additional Master': 'kwc-cms/customize-master/add-additional-master.md'
                 - 'Reset Master for a specific page in web': 'kwc-cms/customize-master/reset-master.md'
-
-
+    - Susy 2 Grid Styling:
+                - 'Overview': 'kwc-cms/susy-two-grid-styling.md'
+                - 'Dependencies': 'kwc-cms/susy-two-grid-styling/dependencies.md'
+                - 'Master Layout': 'kwc-cms/susy-two-grid-styling/master-layout.md'
+                - 'Master-Styling': 'kwc-cms/susy-two-grid-styling/master-styling.md'
+                - 'Component Styling: layout context': 'kwc-cms/susy-two-grid-styling/cs-layout-context.md'
+                - 'Component Styling: full content width': 'kwc-cms/susy-two-grid-styling/cs-full-content-width.md'
+                - 'Component Styling: multiple contexts': 'kwc-cms/susy-two-grid-styling/cs-multiple-contexts.md'
+                - 'Component Styling: child contexts': 'kwc-cms/susy-two-grid-styling/cs-child-contexts.md'
+                - 'Sass Helper': 'kwc-cms/susy-two-grid-styling/sass-helper.md'
+    - Menus:
+                - 'Overview': 'kwc-cms/menus.md'
+                - 'Create a Menu (and Submenu)': 'kwc-cms/menus/create-menu.md'
+                - 'Breadcrumbs': 'kwc-cms/menus/breadcrumbs.md'
+                - 'EditableItems': 'kwc-cms/menus/editable-items.md'
 
 
 
