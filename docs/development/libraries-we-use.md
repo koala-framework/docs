@@ -1,4 +1,5 @@
-# List of JS Frameworks we use for Applications
+# Libraries we use
+## JS Frameworks
 ### View
 - ReactJS ([Website](https://facebook.github.io/react/) | [Github](https://github.com/facebook/react))
 

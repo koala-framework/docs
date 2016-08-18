@@ -204,4 +204,6 @@ pages:
                 - 'Categories': 'kwc-cms/newsletter/categories.md'
                 - 'Recipients': 'kwc-cms/newsletter/recipients.md'
                 - 'Create Custom Components': 'kwc-cms/newsletter/create-custom-components.md'
+- Development:
+    - Libraries we use: 'development/libraries-we-use.md'
 
