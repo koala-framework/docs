@@ -204,4 +204,34 @@ pages:
                 - 'Categories': 'kwc-cms/newsletter/categories.md'
                 - 'Recipients': 'kwc-cms/newsletter/recipients.md'
                 - 'Create Custom Components': 'kwc-cms/newsletter/create-custom-components.md'
+    - Forms:
+                - 'Wizard Component': 'kwc-cms/forms/wizard-component.md'
+
+    - Benchmark Box: 'kwc-cms/benchmark-box.md'
+    - JavaScript Fx Helpers:
+                - 'Overview': 'kwc-cms/js-fx-helpers.md'
+                - 'kwfSwitchHoverFade (dropdown)': 'kwc-cms/js-fx-helpers/kwf-switch-hover-fade.md'
+    - Events:
+                - 'Overview': 'kwc-cms/events.md'
+                - 'Fire Events': 'kwc-cms/events/fire-events.md'
+                - 'Koala Events': 'kwc-cms/events/koala-events.md'
+
+    - Frontend Events (JS): 'kwc-cms/frontend-events.md'
+
+    - CC Components: 'kwc-cms/cc-components.md'
+
+    - Fulltext Search:
+                - 'Overview': 'kwc-cms/fulltext-search.md'
+                - 'Quick Start': 'kwc-cms/fulltext-search/quick-start.md'
+                - 'Solr backend': 'kwc-cms/fulltext-search/solr-backend.md'
+                - 'Customize Content': 'kwc-cms/fulltext-search/customize-content.md'
+
+    - Styling (general):
+                - 'Z-Indices': 'kwc-cms/styling-general.md'
+
+    - Subroot:
+                - 'Overview': 'kwc-cms/subroot.md'
+                - 'Examples': 'kwc-cms/subroot/examples.md'
+                - 'Navigation with Subroots': 'kwc-cms/subroot/navigation-with-subroots.md'
+                - 'Base Properties': 'kwc-cms/subroot/base-properties.md'
 
