@@ -115,6 +115,7 @@ pages:
 
     - DomPDF: 'kwf-general-features/dom-pdf.md'
 
+
 - Kwc (CMS):
     - Introduction: 'kwc-cms/introduction.md'
 
@@ -137,7 +138,6 @@ pages:
                 - 'ImageEnlarge': 'kwc-cms/standard-components/image-enlarge.md'
                 - 'Html': 'kwc-cms/standard-components/html.md'
                 - 'Space': 'kwc-cms/standard-components/space.md'
-
     - Customize Components:
                 - 'Overview': 'kwc-cms/customize-components.md'
                 - 'Inherit Component': 'kwc-cms/customize-components/inherit-component.md'
@@ -208,6 +208,7 @@ pages:
                 - 'Wizard Component': 'kwc-cms/forms/wizard-component.md'
 
     - Benchmark Box: 'kwc-cms/benchmark-box.md'
+
     - JavaScript Fx Helpers:
                 - 'Overview': 'kwc-cms/js-fx-helpers.md'
                 - 'kwfSwitchHoverFade (dropdown)': 'kwc-cms/js-fx-helpers/kwf-switch-hover-fade.md'
@@ -225,13 +226,28 @@ pages:
                 - 'Quick Start': 'kwc-cms/fulltext-search/quick-start.md'
                 - 'Solr backend': 'kwc-cms/fulltext-search/solr-backend.md'
                 - 'Customize Content': 'kwc-cms/fulltext-search/customize-content.md'
-
     - Styling (general):
                 - 'Z-Indices': 'kwc-cms/styling-general.md'
-
     - Subroot:
                 - 'Overview': 'kwc-cms/subroot.md'
                 - 'Examples': 'kwc-cms/subroot/examples.md'
                 - 'Navigation with Subroots': 'kwc-cms/subroot/navigation-with-subroots.md'
                 - 'Base Properties': 'kwc-cms/subroot/base-properties.md'
+    - Statistics:
+                - 'Overview': 'kwc-cms/statistics.md'
+                - 'Google Analytics': 'kwc-cms/statistics/google-analytics.md'
+                - 'Piwik': 'kwc-cms/statistics/piwik.md'
+
+    - Maintenance Jobs: 'kwc-cms/maintenance-jobs.md'
+
+    - Domain configurations: 'kwc-cms/domain-configurations.md'
+
+- Sass:
+    - Introduction: 'sass/introduction.md'
+    - Background Image Dpr2: 'sass/background-image.md'
+    - Mobile Breakpoint: 'sass/mobile-breakpoint.md'
+    - Form Styling Mixin: 'sass/form-styling-mixin.md'
+    - Debugging: 'sass/debugging.md'
+
+- Changelog: 'changelog/changelog.md'
 
