@@ -181,7 +181,27 @@ pages:
                 - 'Create a Menu (and Submenu)': 'kwc-cms/menus/create-menu.md'
                 - 'Breadcrumbs': 'kwc-cms/menus/breadcrumbs.md'
                 - 'EditableItems': 'kwc-cms/menus/editable-items.md'
-
-
-
+    - Directories:
+                - 'Overview': 'kwc-cms/directories.md'
+                - 'Basic Structure': 'kwc-cms/directories/basic-structure.md'
+                - 'Events Components': 'kwc-cms/directories/events-component.md'
+                - 'Simple Example': 'kwc-cms/directories/simple-example.md'
+                - 'Categories': 'kwc-cms/directories/categories.md'
+    - Kwc_Mail_Component:
+                - 'Overview': 'kwc-cms/kwc-mail-component.md'
+                - 'Structure': 'kwc-cms/kwc-mail-component/structure.md'
+                - 'Configuration': 'kwc-cms/kwc-mail-component/configuration.md'
+                - 'Styling': 'kwc-cms/kwc-mail-component/styling.md'
+                - 'Placeholders': 'kwc-cms/kwc-mail-component/placeholders.md'
+                - 'Redirect': 'kwc-cms/kwc-mail-component/redirect.md'
+                - 'Kwc_Mail_Editable_Component': 'kwc-cms/kwc-mail-component/kwc-mail-editable-component.md'
+    - Newsletter:
+                - 'Overview': 'kwc-cms/newsletter.md'
+                - 'Quick Start': 'kwc-cms/newsletter/quick-start.md'
+                - 'Structure': 'kwc-cms/newsletter/structure.md'
+                - 'Subscribe': 'kwc-cms/newsletter/subscribe.md'
+                - 'Sending': 'kwc-cms/newsletter/sending.md'
+                - 'Categories': 'kwc-cms/newsletter/categories.md'
+                - 'Recipients': 'kwc-cms/newsletter/recipients.md'
+                - 'Create Custom Components': 'kwc-cms/newsletter/create-custom-components.md'
 
