@@ -256,4 +256,11 @@ pages:
     - Coding Standards: 'development/coding-standards.md'
     - Unit Tests: 'development/unit-tests.md'
     - Windows Development: 'development/windows-development.md'
+    - Intern:
+              - 'Clone existing Web': 'development/intern/clone-existing-web.md'
+              - 'Create new Web': 'development/intern/create-new-web.md'
+              - 'vps commands': 'development/intern/vps-commands.md'
+              - 'Import / Export Data': 'development/intern/import-export-data.md'
+              - 'Push changes to Production': 'development/intern/push-changes-to-production.md'
+              - 'cherry pick kwf change > 3.8': 'development/intern/cherry-pick-kwf-change.md'
 
