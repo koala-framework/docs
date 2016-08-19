@@ -288,6 +288,7 @@ pages:
 - Development:
     - Overview: 'development/development.md'
     - Coding Standards: 'development/coding-standards.md'
+    - Libraries we use: 'development/libraries-we-use.md'
     - Unit Tests: 'development/unit-tests.md'
     - Windows Development: 'development/windows-development.md'
     - Intern:
@@ -313,9 +314,4 @@ pages:
               - 'Mail Testing': 'development/intern/mail-testing.md'
               - Packages:
                     - 'poi-shop': 'development/intern/packages/poi-shop.md'
-
-
-
-
-
 
