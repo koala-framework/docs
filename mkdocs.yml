@@ -21,7 +21,21 @@ pages:
                 - 'Overview': 'installation-three-point-eight/setup.md'
                 - 'Browser based': 'installation-three-point-eight/setup/browser-based.md'
                 - 'From Commandline': 'installation-three-point-eight/setup/from-commandline.md'
+
     - Ubuntu Example: 'installation-three-point-eight/ubuntu-example.md'
+
+    - Maintenance: 'installation-three-point-eight/maintenance.md'
+
+- Installation (< 3.8):
+    - Overview: 'installation-under-three-point-eight/overview.md'
+    - Local Php built-in webserver: 'installation-under-three-point-eight/local-php-builtin-webserver.md'
+    - Local Apache: 'installation-under-three-point-eight/local-apache.md'
+    - Virtual Machine: 'installation-under-three-point-eight/virtual-machine.md'
+    - Remote with git: 'installation-under-three-point-eight/remote-with-git.md'
+    - Remote with downloader-script: 'installation-under-three-point-eight/remote-with-downloader-script.md'
+    - Manual Setup: 'installation-under-three-point-eight/manual-setup.md'
+    - Ubuntu Example Configuration: 'installation-under-three-point-eight/ubuntu-example-configuration.md'
+    - Maintenance: 'installation-under-three-point-eight/maintenance.md'
 
 - Kwf(General Features):
     - Config:

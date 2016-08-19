@@ -1,4 +1,4 @@
-#XAMPLE SERVER CONFIGURATION
+#EXAMPLE SERVER CONFIGURATION
 
 for Ubuntu/Debian
 
@@ -8,15 +8,12 @@ If you need help contact us on our [mailing list](http://www.koala-framework.org
 
 ###1. Install required packages
 
-        sudo apt-get install php5-cli apache2 libapache2-mod-php5 \
-            mysql-server php5-mysql php5-tidy php-apc php5-imagick \
-            git-core php5-json memcached php5-memcache
-     
-        #Additional packages if you plan to build on this server:
-        sudo apt-get install nodejs nodejs-legacy npm
+    sudo apt-get install php5-cli apache2 libapache2-mod-php5 \
+        mysql-server php5-mysql php5-tidy php-apc php5-imagick \
+        git-core php5-json memcached php5-memcache
+        
 
-###2. Configure PHP (if php <= 5.5)
-
+###2. Configure PHP
 /etc/php5/conf.d/apc.ini:
 
     extension=apc.so
@@ -29,13 +26,11 @@ If you need help contact us on our [mailing list](http://www.koala-framework.org
     apc.write_lock = 1
  
 /etc/php5/apache2/php.ini
-
 Search for short_open_tag and set it to
 
-    short_open_tag = On
-    
-    
-    
+`short_open_tag = On`
+
+
 ###3. Create local test domain
 
 add kwf-cms-demo.local to /etc/hosts, example:
@@ -43,7 +38,6 @@ add kwf-cms-demo.local to /etc/hosts, example:
     127.0.0.1 localhost kwf-cms-demo.local
 
 ###4. Configure Apache: Create Virtual Host
-
 create /etc/apache2/sites-available/kwf-cms-demo.conf with following contents:
 
     <VirtualHost *:80>
@@ -70,5 +64,4 @@ create /etc/apache2/sites-available/kwf-cms-demo.conf with following contents:
     sudo /etc/init.d/apache2 reload
 
 ###7. Install App and Koala
-
 You are now ready to install Koala Framework with your preferred method.
