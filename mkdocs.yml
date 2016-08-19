@@ -262,5 +262,24 @@ pages:
               - 'vps commands': 'development/intern/vps-commands.md'
               - 'Import / Export Data': 'development/intern/import-export-data.md'
               - 'Push changes to Production': 'development/intern/push-changes-to-production.md'
-              - 'cherry pick kwf change > 3.8': 'development/intern/cherry-pick-kwf-change.md'
+              - 'cherry pick kwf change > 3.8': 'development/intern/cherry-pick-kwf-changes.md'
+              - 'Git Basics': 'development/intern/git-basics.md'
+              - 'Git Advanced': 'development/intern/git-advanced.md'
+              - 'Initial Setup Online': 'development/intern/initial-setup-online.md'
+              - 'Initial Tag / Freeze Web': 'development/intern/initial-tag-freeze-web.md'
+              - 'Rename Web': 'development/intern/rename-web.md'
+              - 'Copy Web': 'development/intern/copy-web.md'
+              - 'Private Fonts Repository': 'development/intern/private-fonts-repository.md'
+              - 'Various Console-Snippets': 'development/intern/various-console-snippets.md'
+              - 'Various Snippets': 'development/intern/various-snippets.md'
+              - 'Various CSS Snippets': 'development/intern/various-css-snippets.md'
+              - 'Install XHGui': 'development/intern/install-xh-gui.md'
+              - 'Bower Link': 'development/intern/bower-link.md'
+              - 'Mail Styling': 'development/intern/mail-styling.md'
+              - 'Mail Testing': 'development/intern/mail-testing.md'
+              - Packages:
+                    - 'poi-shop': 'development/intern/packages/poi-shop.md'
+
+
+
 
