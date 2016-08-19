@@ -3,6 +3,26 @@ theme: slate
 
 pages:
 - Documentation: 'index.md'
+- Installation (3.8+):
+    - Local Development Environment:
+                - Php built-in webserver:
+                      - 'Overview': 'installation-three-point-eight/local-development-environment/php-builtin-webserver.md'
+                      - 'Composer': 'installation-three-point-eight/local-development-environment/php-builtin-webserver/composer.md'
+                      - 'NodeJS + NPM': 'installation-three-point-eight/local-development-environment/php-builtin-webserver/nodejs-npm.md'
+
+                - Apache: 'installation-three-point-eight/local-development-environment/apache.md'
+                - Virtual Machine: 'installation-three-point-eight/local-development-environment/virtual-machine.md'
+
+    - Deployment to remote Server:
+                - 'with resync': 'installation-three-point-eight/deployment-to-remote-server/with-resync.md'
+                - 'with FTP': 'installation-three-point-eight/deployment-to-remote-server/with-ftp.md'
+
+    - Setup:
+                - 'Overview': 'installation-three-point-eight/setup.md'
+                - 'Browser based': 'installation-three-point-eight/setup/browser-based.md'
+                - 'From Commandline': 'installation-three-point-eight/setup/from-commandline.md'
+    - Ubuntu Example: 'installation-three-point-eight/ubuntu-example.md'
+
 - Kwf(General Features):
     - Config:
                 - 'Overview': 'kwf-general-features/config.md'
@@ -279,6 +299,8 @@ pages:
               - 'Mail Testing': 'development/intern/mail-testing.md'
               - Packages:
                     - 'poi-shop': 'development/intern/packages/poi-shop.md'
+
+
 
 
 
