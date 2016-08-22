@@ -17,8 +17,12 @@
 * eventSubscribers config setting
 * kwf-varnish for integrating a varnish cache
 * Kwc_Menu_Mobile_Component is now animated using CSS instead of javascript, animations triggered by on('menuToggle') should now also be done in CSS without using the deprecated parameter "slideDuration"
+* build for npm packages (this was made for building react in KWF, see [kwf-reactjs](https://github.com/koala-framework/kwf-reactjs))
 
 ####Possibly incompatible Changes:
+* (*) node_modules folder is moved to web (./node_modules)
+
+This will update required changed marked with (*).
 
 To update a web to this branch execute the following command in the working directory of your web:
 
