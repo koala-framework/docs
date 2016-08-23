@@ -9,20 +9,24 @@
 
 #4.2
 
-###New Features:
+####New Features:
 
-* node-sass 3.7
+* node-sass updated to 3.7
 * needed for kwf-extjs 3
-* modelProviders config setting
-* eventSubscribers config setting
-* kwf-varnish for integrating a varnish cache
+* modelProviders config.ini setting
+* eventSubscribers config.ini setting
 * Kwc_Menu_Mobile_Component is now animated using CSS instead of javascript, animations triggered by on('menuToggle') should now also be done in CSS without using the deprecated parameter "slideDuration"
-* build for npm packages (this was made for building react in KWF, see [kwf-reactjs](https://github.com/koala-framework/kwf-reactjs))
+* assets are now also loaded from npm packages (before only bower)
+
+####New Features available as package:
+
+* [kwf-varnish](https://github.com/koala-framework/kwf-varnish) for integrating a varnish cache
+* [kwf-reactjs](https://github.com/koala-framework/kwf-reactjs) for using ReactJS in Components
 
 ####Possibly incompatible Changes:
-* (*) node_modules folder is moved to web (./node_modules)
 
-This will update required changed marked with (*).
+* (*) vendor/koala-framework/koala-framework/node_modules folder is moved to web (./node_modules)
+
 
 To update a web to this branch execute the following command in the working directory of your web:
 
@@ -33,7 +37,7 @@ This will update required changed marked with (*).
 
 #4.1
 
-###New Features:
+####New Features:
 
 * postcss filters: autoprefixer and others for optimizing css file size (usage of compass mixins for vendor prefixes not required anymore)
 * improved build performance, repeated build with multiple languages generated packages now much faster (initial build is slower though)
@@ -59,7 +63,7 @@ This will update required changed marked with (*).
 
 #4.0
 
-###New Features:
+####New Features:
 
 * Kwf.Util.ResponsiveEl can now be used as sass mixin: @include el-breakpoint(350px) { }
 * `application.uniquePrefix` config setting will prefix all generated html classes and scope all javascript into window.uniquePrefix
@@ -88,7 +92,7 @@ This will update required changed marked with (*).
 
 #3.11
 
-###New Features:
+####New Features:
 
 * Performance improvements for Model_Db (Zend_Db_Table not used anymore)
 
@@ -106,7 +110,7 @@ This will update required changed marked with (*).
 
 #3.10
 
-###New Features:
+####New Features:
 
 * SEO improvements:
     * Improved sitemap.xml now with lastmod field
@@ -135,7 +139,7 @@ This will update required changed marked with (*).
 
 #3.9
 
-###New Features:
+####New Features:
 
 * kwf-extjs: file upload field
 * on?Element*: selector that matches changed element directly is now supported correctly
@@ -158,7 +162,7 @@ This will update required changed marked with (*).
 
 #3.8
 
-###New Features:
+####New Features:
 
 * Koala Framework now has a [required build step](http://www.nikosams.net/blog/14_build_step)
 * Koala Framework now uses [composer](https://getcomposer.org/) to manage dependencies, [composer-extra-assets](http://www.nikosams.net/blog/17_composer_npm_bower_assets_installation_using_composer-extra-assets) to require bower and npm dependencies
@@ -196,7 +200,7 @@ This will update required changed marked with (*).
 
 #3.7
 
-###New Features:
+####New Features:
 
 * `Kwc_Columns_Component`: Allowed to add unlimited rows which are fully responsive
 * Responsive Images: Images are only loaded if visible and with optimized size
@@ -228,7 +232,7 @@ This will update required changed marked with (*).
 #3.6
 Created: 2014-01-14
 
-###New Features:
+####New Features:
 
 * new assets system
     * Ext4 support (and Extensible)
@@ -260,7 +264,7 @@ This will update required changed marked with (*).
 #3.5
 Created: 2013-09-24
 
-###New Features:
+####New Features:
 
 * running web in a subfolder is now supported
 * (*) Resource_MenuUrl doesn't require setting a url
@@ -279,7 +283,7 @@ This will update required changed marked with (*).
 Created: 2013-07-31
 Stable: 2013-08-13
 
-###New Features:
+####New Features:
 
 * Themes (omg!)
 
@@ -346,7 +350,7 @@ Created: 14.03.13
 
 Stable: 16.04.13
 
-###New Features:
+####New Features:
 
 * `Kwf.Fade.Elements` now uses a customizable `Ext.XTemplate` for generated links
 * `Cache_SimpleStatic`: used for static caches
@@ -369,7 +373,7 @@ Created: 14.05.12
 
 Stable: 21.12.12
 
-###New Features:
+####New Features:
 
 * Trl works again (clearing view cache)
 * clear-cache-watcher
@@ -391,12 +395,12 @@ Possibly incompatible Changes:
 
 ###(not supported anymore)
 
-##3.1
+#3.1
 Created: 7.12.11
 
 Stable: 14.05.12
 
-###New Features:
+####New Features:
 
 - Lightbox and ListSwitch make use of HTML5 history API
 
@@ -428,12 +432,12 @@ Stable: 14.05.12
 - componentLink Helper only allows Component as target, otherwise use link Helper
 
 
-##3.0
+#3.0
 Created: 21.06.11
 
 Stable: 7.12.11
 
-###New Features:
+####New Features:
 
 - Model_RowCache: cached angegebene columns von rows im apc cache wenn per getRow() gesucht wird
 
@@ -505,7 +509,7 @@ Stable: 7.12.11
     and staticall return all possible directory componentClasses
 
 
-####handled by vkwf/scripts/koalarize-rename-web update script:
+###handled by vkwf/scripts/koalarize-rename-web update script:
 
 - Vps and Vpc renamed into Kwf and Kwc
 
@@ -514,7 +518,7 @@ Stable: 7.12.11
 - application/config.ini dependencies section moved into dependencies.ini
 
 
-##2.1
+#2.1
 Erstellt: 21.06.11
 
 Stable: 21.06.11
@@ -527,7 +531,7 @@ Stable: 21.06.11
 ####Possibly incompatible Changes:
 
 
-##== 2.0 ==
+#2.0
 Created: 20.12.10
 
 Stable: 03.03.11
@@ -562,12 +566,12 @@ Stable: 03.03.11
 - Config section 'preview' has to have server.domain set to use a real preview domain
 
 
-##== 1.11 ==
+#1.11
 Erstellt: 17.08.10
 
 Stable: 03.03.11
 
-###New Features:
+####New Features:
 
 - Vps_Date, Vps_DateTime
 
@@ -627,12 +631,12 @@ Stable: 03.03.11
 
 
 
-##== 1.10 ==
+#1.10
 Created: 09.06.10
 
 Stable: 16.08.10
 
-###New Features:
+####New Features:
 
 - Generator Plugins
 
@@ -695,12 +699,12 @@ Stable: 16.08.10
 - Update auf Zend 1.10.7
 
 
-##== 1.9 ==
+#1.9
 Created: 07.05.10
 
 Stable: 09.06.10
 
-###New Features:
+####New Features:
 
 - AutoFilter
 
@@ -744,7 +748,7 @@ Stable: 09.06.10
     - auf jeden Fall alles durchtesten beim Umstellen
 
 
-##== 1.8 ==
+#1.8
 Created: 15.01.10
 
 Stable: 20.05.10
