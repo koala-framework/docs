@@ -70,9 +70,12 @@ This will update required changed marked with (*).
 * `kwfUp-` in html, css and js will be replaced with` application.uniquePrefix`
 * when uniquePrefix is activated, [BEM (Block Element Modifier)](../kwc-cms/customize-conponents/bem.md) standard should be used for naming classes
 * Component.override.scss/js: stops styling from getting inherited from base component
-* kwc-susy (own repository): [susy2, new, preferred method for layouting components](../kwc-cms/susy-two-grid-styling.md) (not just Master)
 * Components now support Layout Contexts (for usage with kwc-susy instead of ResponsiveEl)
 * support for *.underscore.tpl dependencies
+
+####New Features available as package:
+
+* [kwc-susy](https://github.com/koala-framework/kwc-susy) [susy2, new, preferred method for layouting components](../kwc-cms/susy-two-grid-styling.md) (not just Master)
 
 ####Possibly incompatible Changes:
 
