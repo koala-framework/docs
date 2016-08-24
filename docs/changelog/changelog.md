@@ -25,8 +25,12 @@
 
 ####Possibly incompatible Changes:
 
+* E_STRICT error_reporting is now enabled *(!)*
+* (*) getTemplateVars now always needs a renderer argument (for compatibility with E_STRICT)
+* (*) getSettings now always needs a parameter (usually null) (for compatibility with E_STRICT)
+* Components now can't set $needsParentComponentClass anymore
+    * SwitchDisplay, Tabs and Legacy_Columns now create a Kwc_Paragraphs_Component (previosuly created their parent)
 * (*) vendor/koala-framework/koala-framework/node_modules folder is moved to web (./node_modules)
-
 
 To update a web to this branch execute the following command in the working directory of your web:
 
