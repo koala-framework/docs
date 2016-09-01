@@ -18,6 +18,7 @@
 * Kwc_Menu_Mobile_Component is now animated using CSS instead of javascript, animations triggered by on('menuToggle') should now also be done in CSS without using the deprecated parameter "slideDuration"
 * assets are now also loaded from npm packages (before only bower)
 * Add possibility to inehrit master template including styles (`masterExtends` setting to inherit styles, `renderer.getComponentMasterTemplate` for inheriting twig template)
+* Admin js is now loaded deferred, Kwf.main is called as entry point to start the application
 
 ####New Features available as package:
 
