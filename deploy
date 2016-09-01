@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+rsync --archive --verbose site/ vpcms@vpcms2.vivid-planet.com:docs.koala-framework.org
+
