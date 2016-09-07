@@ -29,3 +29,6 @@
 
 ### DOM Manipulation
 - jQuery ([Website](https://jquery.com/) | [Github](https://github.com/jquery/jquery))
+
+### Placeholder polyfill (für IE9)
+- jquery-placeholder ([Github](https://github.com/mathiasbynens/jquery-placeholder))
