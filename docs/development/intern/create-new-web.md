@@ -44,7 +44,7 @@
     
 ##Create empty repository
 
-    ssh git.vivid-planet.com
-    mkdir /git/example
-    cd /git/example
-    git init --bare .
+    cd ~/www
+    php library/kwfscripts/vivid/create-empty-repository.php --name="Pretty Web Name"
+    cd ../webid
+    
