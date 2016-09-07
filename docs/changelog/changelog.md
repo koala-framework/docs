@@ -34,6 +34,9 @@
     * SwitchDisplay, Tabs and Legacy_Columns now create a Kwc_Paragraphs_Component (previosuly created their parent)
 * (*) vendor/koala-framework/koala-framework/node_modules folder is moved to web (./node_modules)
 
+####Components converted to [BEM](../kwc-cms/customize-components/bem.md) classes, possibly incompatible when uniquePrefix is used:
+* `Kwc_Menu_Dropdown_Component` (hasSubMenu class)
+
 To update a web to this branch execute the following command in the working directory of your web:
 
     php ../kwf-upgrade/upgrade-to-4.2.php
@@ -54,11 +57,11 @@ This will update required changed marked with (*).
 
 ####Possibly incompatible Changes:
 
-* **Kwc_News_List_View** templates were rewritten using [BEM](../kwc-cms/customize-components/bem.md), when application.uniquePrefix is enabled you may need to adjust your styling for components inheriting from this component
-
 * refactored CookieOpt and Statistics
-
 * Kwf_Component_Plugin_Interface_SkipProcessInput changed
+
+####Components converted to [BEM](../kwc-cms/customize-components/bem.md) classes, possibly incompatible when uniquePrefix is used:
+* `Kwc_News_List_View_Component`
 
 To update a web to this branch execute the following command in the working directory of your web:
 
