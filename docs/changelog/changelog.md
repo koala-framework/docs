@@ -183,7 +183,7 @@ This will update required changed marked with (*).
 * Performance: Frontend js is now split in two parts where one is loaded deferred, use Component.defer.js and assetsDefer setting to defer JS load.
 * Users can now consist of multiple sources (to include eg. a Members model)
 * new form styling sass mixins
-* Paragraphs Admin: order of components in add menu can be specified using [componentCategory and componentOrderPriority](../kwc-cms/customize-components/component-name.md) setting
+* Paragraphs Admin: order of components in add menu can be specified using [componentCategory and componentPriority](../kwc-cms/customize-components/component-name.md) setting
 * nicer and styleable backend login
 * Components: twig templates (optional)
 * Components: getMasterTemplateVars: like getTemplateVars but for Master.tpl

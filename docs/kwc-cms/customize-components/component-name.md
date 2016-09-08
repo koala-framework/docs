@@ -17,7 +17,7 @@ can specify additional settings that help structuring the menu.
 ####Example:
 
      $ret['componentCategory'] = 'special';
-     $ret['componentOrderPriority'] = 10;
+     $ret['componentPriority'] = 10;
      
 ####Available categories are:
 
@@ -33,4 +33,4 @@ can specify additional settings that help structuring the menu.
 * `'admin'`: components that should be added by admins only
 
 
-The `'componentOrderPriority'` setting allows you to change the order within that category.
+The `'componentPriority'` setting allows you to change the order within that category.
