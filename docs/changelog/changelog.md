@@ -19,6 +19,7 @@
 * assets are now also loaded from npm packages (before only bower)
 * Add possibility to inehrit master template including styles (`masterExtends` setting to inherit styles, `renderer.getComponentMasterTemplate` for inheriting twig template)
 * Admin js is now loaded deferred, Kwf.main is called as entry point to start the application
+* `kwf/base-url` for JavaScript that outputs relative urls (required for IntegratorTemplate)
 
 ####New Features available as package:
 
@@ -33,6 +34,8 @@
 * Components now can't set $needsParentComponentClass anymore
     * SwitchDisplay, Tabs and Legacy_Columns now create a Kwc_Paragraphs_Component (previosuly created their parent)
 * (*) vendor/koala-framework/koala-framework/node_modules folder is moved to web (./node_modules)
+* Kwf.sessionToken isn't set anymore, `kwf/user/fetch-session-token` get it using if needed
+* Cacheable content in frontend is now output with Cache-Control: public
 
 ####Components converted to [BEM](../kwc-cms/customize-components/bem.md) classes, possibly incompatible when uniquePrefix is used:
 * `Kwc_Menu_Dropdown_Component` (hasSubMenu class)
