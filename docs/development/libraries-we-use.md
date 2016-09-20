@@ -32,3 +32,7 @@
 
 ### Placeholder polyfill (für IE9)
 - jquery-placeholder ([Github](https://github.com/mathiasbynens/jquery-placeholder))
+
+## PHP Frameworks
+### Secure-Random generator
+- "ircmaxell/random-lib": "~1.0" ([Reason](http://stackoverflow.com/questions/4356289/php-random-string-generator/31107425#31107425))
