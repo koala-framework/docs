@@ -1,5 +1,5 @@
 site_name: Koala Framework Dokumentation
-theme: slate
+theme_dir: kwf-theme
 
 pages:
 - Documentation: 'index.md'
