@@ -18,7 +18,7 @@
         <!-- Expanded navigation -->
         <div class="navbar-collapse collapse">
             <!-- Main navigation -->
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav navbar-main">
             {% for nav_item in nav %}
             {% if nav_item.children %}
                 <li class="dropdown{% if nav_item.active %} active{% endif %}">
@@ -39,17 +39,17 @@
 
             <!-- Search, Navigation and Repo links -->
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                        <i class="fa fa-search"></i> Search
-                    </a>
-                </li>
-                <li {% if not previous_page %}class="disabled"{% endif %}>
+                <li class="navbar-right__prev{% if not previous_page %} disabled{% endif %}">
                     <a rel="next" {% if previous_page %}href="{{ previous_page.url }}"{% endif %}>
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li {% if not next_page %}class="disabled"{% endif %}>
+                <li class="navbar-right__search">
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                <li class="navbar-right__next{% if not next_page %} disabled{% endif %}">
                     <a rel="prev" {% if next_page %}href="{{ next_page.url }}"{% endif %}>
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
