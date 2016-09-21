@@ -63,6 +63,7 @@ This will update required changed marked with (*).
 
 * refactored CookieOpt and Statistics
 * Kwf_Component_Plugin_Interface_SkipProcessInput changed
+* Statistics_OptBox div structure and class names
 
 ####Components converted to [BEM](../kwc-cms/customize-components/bem.md) classes, possibly incompatible when uniquePrefix is used:
 * `Kwc_News_List_View_Component`
