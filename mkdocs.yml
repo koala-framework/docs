@@ -4,6 +4,7 @@ theme_dir: kwf-theme
 pages:
 - Documentation: 'index.md'
 - Installation (3.8+):
+    - Overview: 'installation-three-point-eight/overview.md'
     - Local Development Environment:
                 - Php built-in webserver:
                       - 'Overview': 'installation-three-point-eight/local-development-environment/php-builtin-webserver.md'
@@ -14,13 +15,9 @@ pages:
                 - Virtual Machine: 'installation-three-point-eight/local-development-environment/virtual-machine.md'
 
     - Deployment to remote Server:
-                - 'with resync': 'installation-three-point-eight/deployment-to-remote-server/with-resync.md'
-                - 'with FTP': 'installation-three-point-eight/deployment-to-remote-server/with-ftp.md'
+                - 'with rsync': 'installation-three-point-eight/deployment-to-remote-server/with-rsync.md'
 
-    - Setup:
-                - 'Overview': 'installation-three-point-eight/setup.md'
-                - 'Browser based': 'installation-three-point-eight/setup/browser-based.md'
-                - 'From Commandline': 'installation-three-point-eight/setup/from-commandline.md'
+    - Setup: 'installation-three-point-eight/setup.md'
 
     - Ubuntu Example: 'installation-three-point-eight/ubuntu-example.md'
 
