@@ -4,16 +4,9 @@ Once the application is installed you sometimes have to run maintenance scripts:
 
 ###setup
 
-Open the following url to start the initial setup:
+Initial setup
 
-* http://www.example.com/kwf/maintenance/setup
-
-This script will:
-
-* check requirements
-* create database with initial content
-* create admin user
-* create config.local.ini containing database config
+* commandline: php bootstrap.php setup
 
 ###php-info
 
@@ -38,7 +31,6 @@ Refreshing build is needed if you make changes to code.
 Clearing caches is needed if you make changes to code.
 
 * commandline: php bootstrap.php clear-cache
-* webserver: http://www.example.com/kwf/maintenance/clear-cache
 
 ###clear-view-cache
 
@@ -58,11 +50,9 @@ Clear cache watcher automatically clears caches & build by watching the file sys
 Running update scripts is needed after updating code that requires changes to the database. Will also clear all caches.
 
 * commandline: php bootstrap.php update
-* webserver: http://www.example.com/kwf/maintenance/update
 
 ###fulltext rebuild
 
 The fulltext index can be built using:
 
 * commandline: php bootstrap.php fulltext rebuild --debug
-* webserver: http://www.example.com/kwf/maintenance/fulltext
