@@ -15,6 +15,8 @@ Define a different pair by adding
 
 `preLoginPassword = PASSWORD`
 
+It's also possible to send the authorization via X_KWF_AUTHORIZATION if the default Authorization-Header is for example needed for OAuth.
+
 ##Exceptions to your PreLogin
 
 It's also possible to define exceptions for your pre-login like for your own ip or a path of your website.
