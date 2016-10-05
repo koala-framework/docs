@@ -21,6 +21,7 @@
 * Admin js is now loaded deferred, Kwf.main is called as entry point to start the application
 * `kwf/base-url` for JavaScript that outputs relative urls (required for IntegratorTemplate)
 * [BETA] Symfony integration: new KwfBundle for creating REST APIs
+* X_KWF_AUTHORIZATION as alternative for default Authorization-Header (for Mobile-Apps working with OAuth and preLogin required)
 
 ####New Features available as package:
 
