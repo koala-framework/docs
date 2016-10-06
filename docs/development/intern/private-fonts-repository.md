@@ -50,7 +50,7 @@ Now add and commit all files.
 
      "extra": {
             "require-bower": {
-                "example-fonts": "ssh://git@phabricator.vivid-planet.com/diffusion/EXAMPLEFONTS/example-fonts#1.0.0"
+                "example-fonts": "ssh://git@phabricator.vivid-planet.com/diffusion/EXAMPLEFONTS/example-fonts.git#1.0.0"
             }
         }
         
