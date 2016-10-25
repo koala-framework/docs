@@ -7,3 +7,12 @@ Go to [lingohub.com](https://lingohub.com/) and create a new project. Select `"G
 Upload your webcode-language po file as source file.
 
 Now upload your other po-files as new resource-files to provide existing translations.
+
+Add the lingohub project to your config.ini
+
+"extra": {
+        "kwf-lingohub": {
+            "account": "example-account",
+            "project": "example-project"
+        }
+    }
