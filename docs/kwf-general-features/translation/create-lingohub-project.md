@@ -8,7 +8,7 @@ Upload your webcode-language po file as source file.
 
 Now upload your other po-files as new resource-files to provide existing translations.
 
-Add the lingohub project to your config.ini
+Add the lingohub project to your composer.json
 
 "extra": {
         "kwf-lingohub": {
