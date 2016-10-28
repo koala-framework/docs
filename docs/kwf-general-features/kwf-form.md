@@ -59,6 +59,16 @@ You only have to call setDefaultFieldWidth on a container.
     $form->add(new Kwf_Form_Field_TextField('name', 'Name'));
 
 
+##Error Message
+
+Form Error Messages can be shown below the formField or with a bubble.
+Edit your config.ini to get one of the two styles.
+
+    kwc.form.errorStyle = belowField
+    //OR
+    kwc.form.errorStyle = iconBubble
+
+
 ##Field Properties
 
 The supported properties are based on ExtJS Form config. Look up the relevant Field in the Koala api documentation 
