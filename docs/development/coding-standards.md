@@ -9,6 +9,7 @@
 * Variable names, css class names, Ids: always englisch
 * Variable names, css class names, Ids: camelCase
 * Template-Files: CamelCase.tpl
+* fuel types: diesel, gasoline, cng, electric, hybrid
 
 ##Php:
 
