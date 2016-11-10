@@ -7,6 +7,13 @@
 * execute `php bootstrap.php update` to execute update scripts that update the database
 
 
+#4.3
+
+(upcoming)
+
+####New Features:
+* better varnish integration: assets in apc can be disabled, possible to clear fullpage cache (kwf-varnish 1.1)
+
 #4.2
 
 ####New Features:
