@@ -36,3 +36,6 @@
 ## PHP Frameworks
 ### Secure-Random generator
 - "ircmaxell/random-lib": "~1.0" ([Reason](http://stackoverflow.com/questions/4356289/php-random-string-generator/31107425#31107425))
+
+### HTTP Client
+- "guzzlehttp/guzzle": "~3.8" ([Docs](http://guzzle3.readthedocs.io/docs.html) | [Github](https://github.com/guzzle/guzzle))
