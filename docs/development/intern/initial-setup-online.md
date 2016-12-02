@@ -42,7 +42,7 @@ workflow on POI-Server
     vi WEBID.xml
 
     # 3. Write the below config with the correct project directory path to solr
-    <?xml version"1.0" encoding="utf-8"?>
+    <?xml version="1.0" encoding="utf-8"?>
     <Context docBase="/www/docs/vps/solr/3.6.0/webapps/solr.war" debug="0" crossContext="true">
         <Environment name="solr/home" type="java.lang.String" value="/www/docs/div/WEBFOLDER/solr/" override="true" />
     </Context>
