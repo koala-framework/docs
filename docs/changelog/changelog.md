@@ -13,8 +13,14 @@
 
 ####New Features:
 * better varnish integration: assets in apc can be disabled, possible to clear fullpage cache (kwf-varnish 1.1)
+* Newsletter: possible to add a "web version" link that opens newsletter in browser
+
+####Possibly incompatible Changes:
 
 #4.2
+* Kwc_Mail (and Newsletter) redirects changed
+  * `*redirect*` prefix in links dropped
+  * `*showcomponent*` removed, use `processMailRedirectInput` flag to access recipient
 
 ####New Features:
 

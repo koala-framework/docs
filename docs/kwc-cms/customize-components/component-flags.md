@@ -39,6 +39,7 @@ A component can have a different flags in it's static settings (getSettings func
 * assetsPackage (to split assets in multiple packages) (since 4.1)
 * hasResources (deprecated)
 * searchContent (deprecated)
+* processMailRedirectInput (for Mails to get recipient data passed as GET parameter) (since 4.3)
 
 
 ##Flags in Detail
