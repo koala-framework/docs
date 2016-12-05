@@ -17,10 +17,11 @@
 
 ####Possibly incompatible Changes:
 
-#4.2
 * Kwc_Mail (and Newsletter) redirects changed
-  * `*redirect*` prefix in links dropped
-  * `*showcomponent*` removed, use `processMailRedirectInput` flag to access recipient
+    * `*redirect*` prefix in links dropped
+    * `*showcomponent*` removed, use `processMailRedirectInput` flag to access recipient
+
+#4.2
 
 ####New Features:
 
