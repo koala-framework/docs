@@ -30,14 +30,10 @@ A component can have a different flags in it's static settings (getSettings func
 * forwardProcessInput (component has getForwardProcessInputComponents method)
 * chainedType
 * menuCategory
-* hasDomain
-* hasMoneyFormat
 * resetMaster (component has own Master.tpl and master templates above won't be used)
 * hasIsVisibleDynamic (component has isVisibleDynamic method implemented to get hidden dynamically)
-* requestHttps (redirect to https if configured)
 * hasAnchors (if set to true getAnchors() has to be implemented so that Kwc_Basic_LinkTag_Intern_Component can link to an anchor)
 * assetsPackage (to split assets in multiple packages) (since 4.1)
-* hasResources (deprecated)
 * searchContent (deprecated)
 * processMailRedirectInput (for Mails to get recipient data passed as GET parameter) (since 4.3)
 
