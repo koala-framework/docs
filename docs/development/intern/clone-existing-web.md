@@ -4,5 +4,6 @@
     vps clone $WEBNAME
     cd $WEBNAME
      
+    composer install
+    ccb 
     vps import
-    vps create-users
