@@ -36,6 +36,7 @@
 * `kwf/base-url` for JavaScript that outputs relative urls (required for IntegratorTemplate)
 * [BETA] Symfony integration: new KwfBundle for creating REST APIs
 * X_KWF_AUTHORIZATION as alternative for default Authorization-Header (for Mobile-Apps working with OAuth and preLogin required)
+* `kwfLocal` selector for js/css that gets replaced with class named after file (similar to `kwcClass` but also usable outside of components)
 
 ####New Features available as package:
 
