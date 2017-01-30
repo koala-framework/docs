@@ -2,8 +2,8 @@
 
 * clone the [kwf-upgrade](https://github.com/koala-framework/kwf-upgrade) repository (contains helper scripts that will upgrade your codebase)
 * execute composer install in kwf-upgrade
-* execute all update scripts, eg to update from 3.3 to 3.5 you need to call `upgrade-to-3.4.php` and upgrade-to-3.5.php
-* execute `php bootstrap.php clear-cache` and `php bootstrap.php` build and fix any errors you get
+* execute all update scripts, eg to update from 3.3 to 3.5 you need to call `upgrade-to-3.4.php` and `upgrade-to-3.5.php`
+* execute `composer update`, `php bootstrap.php clear-cache` and `php bootstrap.php` build and fix any errors you get
 * execute `php bootstrap.php update` to execute update scripts that update the database
 
 
