@@ -270,7 +270,9 @@ pages:
     - Form Styling Mixin: 'sass/form-styling-mixin.md'
     - Debugging: 'sass/debugging.md'
 
-- Changelog: 'changelog/changelog.md'
+- Changelog:
+    - Koala Framework: 'changelog/koala-framework.md'
+    - Kwc Susy: 'changelog/kwc-susy.md'
 
 - Development:
     - Overview: 'development/development.md'
