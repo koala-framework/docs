@@ -167,6 +167,7 @@ pages:
                 - 'Styling - Css': 'kwc-cms/customize-components/styling-css.md'
                 - 'Content - Template': 'kwc-cms/customize-components/content-template.md'
                 - 'View Helpers': 'kwc-cms/customize-components/view-helpers.md'
+                - 'Backend component settings': 'kwc-cms/customize-components/backend-component-settings.md'
                 - 'Behavior - Php': 'kwc-cms/customize-components/behavior-php.md'
                 - 'Behavior - JavaScript': 'kwc-cms/customize-components/behavior-javascript.md'
                 - 'Behavior - JavaScript + Ajax': 'kwc-cms/customize-components/behavior-javascript-ajax.md'
