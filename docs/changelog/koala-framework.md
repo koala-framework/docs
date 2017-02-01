@@ -14,7 +14,7 @@
 ####New Features:
 * better varnish integration: assets in apc can be disabled, possible to clear fullpage cache (kwf-varnish 1.1)
 * Newsletter: possible to add a "web version" link that opens newsletter in browser
-* `Kwc_Tabs_Component` now supports internal and external linking to any given tabId by using a URL hash. Internal links can be made by using the anchor function (as already used for headers) in the backend.
+* `Kwc_Tabs_Component` now supports internal and external linking to any given tabId by using a URL hash. Internal links can be made by using the anchor function (as already used for headers) in the backend. Also added a `Kwc_Legacy_Tabs_Component` to support older implementations.
 
 ####Possibly incompatible Changes:
 
@@ -22,8 +22,6 @@
     * has to be page now, otherwise components where it used could throw NotFound exception
     * `*redirect*` prefix in links dropped
     * `*showcomponent*` removed, use `passMailRecipient` flag to access recipient, and this components has to be a page now
-
-* `Kwc_Tabs_Component` : If the Tab component template was overridden (Tabs/Component.tpl), the class `.kwfUp-kwfTabs` might still be set. Remove that class from the element in order to prevent the tab objects from being loaded twice.
 
 #4.2
 
