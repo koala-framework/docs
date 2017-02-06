@@ -26,7 +26,7 @@ WARNING: **changes to production server will clear caches**
     vps export --server=test (ext) 
     
     
-###verify changes on test server, if ok:
+####verify changes on test server, if ok:
 
 `vps go-online`
 
@@ -42,7 +42,16 @@ WARNING: **changes to production server will clear caches**
 .
 
     vps export --server=test (ext)
+
+####verify changes on test server, if ok:
     
+    git checkout production (gc production)
+    git cherry-pick master #picks only the last commit, master^ for second last (gcp master)
+    git push
+.
+
+    vps export --server=production (exp)
+
 ##3. Update to production server without testing on test server (single, small commit)   
 
     git checkout production (gc production)
@@ -55,7 +64,7 @@ WARNING: **changes to production server will clear caches**
 
     vps export --server=production (exp)
     
-###change is now online, backport to master
+####change is now online, backport to master
 
     git checkout master (gc master)
     git cherry-pick production #picks only the last commit, production^ for second last (gcp production)
