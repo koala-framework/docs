@@ -270,6 +270,11 @@ pages:
     - Form Styling Mixin: 'sass/form-styling-mixin.md'
     - Debugging: 'sass/debugging.md'
 
+- reactJS:
+    - Introduction: 'reactjs/introduction.md'
+    - Examples:
+                - 'Animation Add-Ons': 'reactjs/examples/react-addons-css-transition-group.md'
+
 - Changelog:
     - Koala Framework: 'changelog/koala-framework.md'
     - Kwc Susy: 'changelog/kwc-susy.md'
