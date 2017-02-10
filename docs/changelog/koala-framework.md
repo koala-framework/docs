@@ -57,7 +57,7 @@
 * Kwf.sessionToken isn't set anymore, `kwf/user/fetch-session-token` get it using if needed
 * Cacheable content in frontend is now output with Cache-Control: public
 
-####Components converted to [BEM](../kwc-cms/customize-components/bem.md) classes, possibly incompatible when uniquePrefix is used:
+####Components converted to [BEM](../styling/general/bem/) classes, possibly incompatible when uniquePrefix is used:
 * `Kwc_Menu_Dropdown_Component` (hasSubMenu class)
 
 To update a web to this branch execute the following command in the working directory of your web:
@@ -84,7 +84,7 @@ This will update required changed marked with (*).
 * Kwf_Component_Plugin_Interface_SkipProcessInput changed
 * Statistics_OptBox div structure and class names
 
-####Components converted to [BEM](../kwc-cms/customize-components/bem.md) classes, possibly incompatible when uniquePrefix is used:
+####Components converted to [BEM](../styling/general/bem/) classes, possibly incompatible when uniquePrefix is used:
 * `Kwc_News_List_View_Component`
 
 To update a web to this branch execute the following command in the working directory of your web:
@@ -101,14 +101,14 @@ This will update required changed marked with (*).
 * Kwf.Util.ResponsiveEl can now be used as sass mixin: @include el-breakpoint(350px) { }
 * `application.uniquePrefix` config setting will prefix all generated html classes and scope all javascript into window.uniquePrefix
 * `kwfUp-` in html, css and js will be replaced with` application.uniquePrefix`
-* when uniquePrefix is activated, [BEM (Block Element Modifier)](../kwc-cms/customize-conponents/bem.md) standard should be used for naming classes
+* when uniquePrefix is activated, [BEM (Block Element Modifier)](../styling/general/bem/) standard should be used for naming classes
 * Component.override.scss/js: stops styling from getting inherited from base component
 * Components now support Layout Contexts (for usage with kwc-susy instead of ResponsiveEl)
 * support for *.underscore.tpl dependencies
 
 ####New Features available as package:
 
-* [kwc-susy](https://github.com/koala-framework/kwc-susy) [susy2, new, preferred method for layouting components](../kwc-cms/susy-two-grid-styling.md) (not just Master)
+* [kwc-susy](https://github.com/koala-framework/kwc-susy) [susy2, new, preferred method for layouting components](../styling/susy-two-grid-styling/overview) (not just Master)
 
 ####Possibly incompatible Changes:
 

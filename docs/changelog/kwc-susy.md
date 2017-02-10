@@ -1,7 +1,7 @@
 # KWC Susy
 
 Susy is a flexible grid layout system for creating responsive websites.  
-More information about Susy is available under [Susy 2 grid styling](../../kwc-cms/susy-two-grid-styling).
+More information about Susy is available under [Susy 2 grid styling](../../styling/susy-two-grid-styling/overview).
 
 # 1.1
 

@@ -164,7 +164,6 @@ pages:
                 - 'Component Settings': 'kwc-cms/customize-components/component-settings.md'
                 - 'Component Name': 'kwc-cms/customize-components/component-name.md'
                 - 'Child Components': 'kwc-cms/customize-components/child-components.md'
-                - 'Styling - Css': 'kwc-cms/customize-components/styling-css.md'
                 - 'Content - Template': 'kwc-cms/customize-components/content-template.md'
                 - 'View Helpers': 'kwc-cms/customize-components/view-helpers.md'
                 - 'Backend component settings': 'kwc-cms/customize-components/backend-component-settings.md'
@@ -177,7 +176,6 @@ pages:
                 - 'Plugins': 'kwc-cms/customize-components/plugins.md'
                 - 'Component Flags': 'kwc-cms/customize-components/component-flags.md'
                 - 'Generator Flags': 'kwc-cms/customize-components/generator-flags.md'
-                - 'BEM': 'kwc-cms/customize-components/bem.md'
                 - 'Rules': 'kwc-cms/customize-components/rules.md'
     - Customize Master:
                 - 'Overview': 'kwc-cms/customize-master.md'
@@ -187,16 +185,6 @@ pages:
                 - 'MultiBox': 'kwc-cms/customize-master/multi-box.md'
                 - 'Add additional Master': 'kwc-cms/customize-master/add-additional-master.md'
                 - 'Reset Master for a specific page in web': 'kwc-cms/customize-master/reset-master.md'
-    - Susy 2 Grid Styling:
-                - 'Overview': 'kwc-cms/susy-two-grid-styling.md'
-                - 'Dependencies': 'kwc-cms/susy-two-grid-styling/dependencies.md'
-                - 'Master Layout': 'kwc-cms/susy-two-grid-styling/master-layout.md'
-                - 'Master-Styling': 'kwc-cms/susy-two-grid-styling/master-styling.md'
-                - 'Component Styling: layout context': 'kwc-cms/susy-two-grid-styling/cs-layout-context.md'
-                - 'Component Styling: full content width': 'kwc-cms/susy-two-grid-styling/cs-full-content-width.md'
-                - 'Component Styling: multiple contexts': 'kwc-cms/susy-two-grid-styling/cs-multiple-contexts.md'
-                - 'Component Styling: child contexts': 'kwc-cms/susy-two-grid-styling/cs-child-contexts.md'
-                - 'Sass Helper': 'kwc-cms/susy-two-grid-styling/sass-helper.md'
     - Menus:
                 - 'Overview': 'kwc-cms/menus.md'
                 - 'Create a Menu (and Submenu)': 'kwc-cms/menus/create-menu.md'
@@ -247,8 +235,6 @@ pages:
                 - 'Quick Start': 'kwc-cms/fulltext-search/quick-start.md'
                 - 'Solr backend': 'kwc-cms/fulltext-search/solr-backend.md'
                 - 'Customize Content': 'kwc-cms/fulltext-search/customize-content.md'
-    - Styling (general):
-                - 'Z-Indices': 'kwc-cms/styling-general.md'
     - Subroot:
                 - 'Overview': 'kwc-cms/subroot.md'
                 - 'Examples': 'kwc-cms/subroot/examples.md'
@@ -263,12 +249,27 @@ pages:
 
     - Domain configurations: 'kwc-cms/domain-configurations.md'
 
-- Sass:
-    - Introduction: 'sass/introduction.md'
-    - Background Image Dpr2: 'sass/background-image.md'
-    - Mobile Breakpoint: 'sass/mobile-breakpoint.md'
-    - Form Styling Mixin: 'sass/form-styling-mixin.md'
-    - Debugging: 'sass/debugging.md'
+- Styling:
+    - General:
+                - 'Styling': 'styling/general/styling.md'
+                - 'BEM': 'styling/general/bem.md'
+                - 'Z-Indices': 'styling/general/z-indices.md'
+    - Sass:
+                - Introduction: 'styling/sass/introduction.md'
+                - Background Image Dpr2: 'styling/sass/background-image.md'
+                - Mobile Breakpoint: 'styling/sass/mobile-breakpoint.md'
+                - Form Styling Mixin: 'styling/sass/form-styling-mixin.md'
+                - Debugging: 'styling/sass/debugging.md'
+    - Susy 2 Grid Styling:
+                - 'Overview': 'styling/susy-two-grid-styling/overview.md'
+                - 'Dependencies': 'styling/susy-two-grid-styling/dependencies.md'
+                - 'Master Layout': 'styling/susy-two-grid-styling/master-layout.md'
+                - 'Master-Styling': 'styling/susy-two-grid-styling/master-styling.md'
+                - 'Component Styling: layout context': 'styling/susy-two-grid-styling/cs-layout-context.md'
+                - 'Component Styling: full content width': 'styling/susy-two-grid-styling/cs-full-content-width.md'
+                - 'Component Styling: multiple contexts': 'styling/susy-two-grid-styling/cs-multiple-contexts.md'
+                - 'Component Styling: child contexts': 'styling/susy-two-grid-styling/cs-child-contexts.md'
+                - 'Sass Helper': 'styling/susy-two-grid-styling/sass-helper.md'
 
 - reactJS:
     - Introduction: 'reactjs/introduction.md'
