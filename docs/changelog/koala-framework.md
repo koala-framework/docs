@@ -22,6 +22,7 @@
     * has to be page now, otherwise components where it used could throw NotFound exception
     * `*redirect*` prefix in links dropped
     * `*showcomponent*` removed, use `passMailRecipient` flag to access recipient, and this components has to be a page now
+* `Directory_List_View_Component::getItems`/`getItemIds` moved to `Directory_List_Component`
 
 #4.2
 
