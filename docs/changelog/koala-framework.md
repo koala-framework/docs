@@ -19,8 +19,9 @@
 ####Possibly incompatible Changes:
 
 * Kwc_Mail (and Newsletter) redirects changed
+    * has to be page now, otherwise components where it used could throw NotFound exception
     * `*redirect*` prefix in links dropped
-    * `*showcomponent*` removed, use `processMailRedirectInput` flag to access recipient
+    * `*showcomponent*` removed, use `passMailRecipient` flag to access recipient, and this components has to be a page now
 
 * `Kwc_Tabs_Component` : If the Tab component template was overridden (Tabs/Component.tpl), the class `.kwfUp-kwfTabs` might still be set. Remove that class from the element in order to prevent the tab objects from being loaded twice.
 
