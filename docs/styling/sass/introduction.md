@@ -1,8 +1,8 @@
 #SASS
 
-Koala Framework supports the css framework Sass, which makes css coding fun again. If you want to use it in your Project you have two options:
+Koala Framework supports [SASS](http://sass-lang.com/), a css framework which makes styling fun again. If you want to use SASS in your Project you have two options:
 
-1. You can add to every component a Component.scss file
-2. You can add .scss files as dependency for components or for the web
+1. You can add a `Component.scss` file to every component
+2. You can add `.scss` files as dependency for components or for the web
 
-Koala Framework do only support the scss syntax, not the sass syntax/files.
+Koala Framework only supports the scss syntax, it does not support the sass syntax or `.sass` files.
