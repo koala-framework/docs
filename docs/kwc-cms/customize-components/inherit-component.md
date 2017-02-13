@@ -14,7 +14,7 @@ The **first step** to customize a component is to create your own variant of it.
         }
     }
     
-We now have a new component where we could add [custom Css](styling-css.md) that styles it blue. 
+We now have a new component where we could add [custom Css](../../styling/general/styling/) that styles it blue. 
 The componentName setting will be shown to the user when he can choose this specific component - 
 like as page type or paragraph type.
 
