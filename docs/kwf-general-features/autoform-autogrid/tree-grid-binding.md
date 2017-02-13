@@ -8,7 +8,7 @@ When a form has to configure something for a special parent you will need someth
 
 ##Create your controller
 
-This step can be read [here](../controllers/overview.md).
+This step can be read [here](../controllers/quick-start/).
 
 ##Define indexAction()
 
