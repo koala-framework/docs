@@ -1,6 +1,6 @@
 #STYLING
 
-To style a component you simply need to create a Component.css file in the component's folder. 
+To style a component you simply need to create a `Component.css` file in the component's folder. 
 It will be picked up automatically. All `Component.css` files of parent component classes will also be used.
 
 Styling should only be done scoped for only this component, this can be achieved by adding `.kwcClass` (or `.cssClass` before version 4.0) as the main selector. 
