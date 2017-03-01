@@ -20,9 +20,10 @@
 ##Database:
 
 * Modelname and Tablename: Plural
+* Tablename: starting with app_
 * Standard db fields: visible, pos, archive, name
 * storage engine innoDb (incl relations)
-* Relationtables: foo_to_bar
+* Relationtables: app_foos_to_bars
 * firstname, lastname (without _ in between!)
 * gender ENUM('female', 'male') - if required 'company'
 
