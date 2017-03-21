@@ -2,6 +2,7 @@
 
     git checkout master
     composer update
+    git add composer*; git commit -m "composer update"; git push
     git checkout production
      
     ../library/kwfscripts/vivid/vendor-cherry-pick.php koala-framework/koala-framework $COMMITID
