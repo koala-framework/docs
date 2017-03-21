@@ -9,8 +9,6 @@
 
 #4.3
 
-(upcoming)
-
 ####New Features:
 * better varnish integration: assets in apc can be disabled, possible to clear fullpage cache (kwf-varnish 1.1)
 * Newsletter: possible to add a "web version" link that opens newsletter in browser
@@ -23,6 +21,7 @@
     * `*redirect*` prefix in links dropped
     * `*showcomponent*` removed, use `passMailRecipient` flag to access recipient, and this components has to be a page now
 * `Directory_List_View_Component::getItems`/`getItemIds` moved to `Directory_List_Component`
+* Disable legacy support for assets packages to prevent cssChunks issues
 
 #4.2
 
