@@ -17,7 +17,10 @@ commonly model classes are used.
 Then generate the media url using: `Kwf_Media::getUrl($class, $id, $type, $filename)`
 
 The parameters `$id` and `$type` can contain *any* string, it will be passed unchanged to the output method. 
-Usually `$id` is some a primary key of a model and `$type` the image size (as in small/large/etc). `$filename` is just for decoration - used by the browser if you save the file.
+Usually `$id` is some a primary key of a model and `$type` the image size (as in small/large/etc). `$filename`
+is just for decoration - used by the browser if you save the file.
+
+`$class` is the class that implements `Kwf_Media_Output_Interface`.
 
 The generated url is dispatched by `Kwf_Setup::dispatchMedia()` into the given 
 `$class::getMediaOutput($id, $type, $className)` where you can then return the processed (scaled) image.
