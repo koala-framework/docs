@@ -55,6 +55,6 @@
 
 ##Symfony
 ###Services
-* app.model.folder_camel-case
-* app.handler.folder_camel-case
+* app.model.folder.camel_case
+* app.handler.folder.camel_case
 * ...
