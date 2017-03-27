@@ -52,3 +52,9 @@
     backbone/views/Idea/Item/Header.scss
     backbone/views/Idea/Item/Header.underscore.tpl
     backbone/views/Idea/Layout.js
+
+##Symfony
+###Services
+* app.model.folder_camel-case
+* app.handler.folder_camel-case
+* ...
