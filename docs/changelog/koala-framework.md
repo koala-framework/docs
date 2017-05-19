@@ -19,8 +19,8 @@
 ####New Features:
 
 * maintenance jobs log output
-  * logs run jobs in database (can be viewed in browser as admin)
-  * send failed jobs output to config setting `maintenanceJobs.failNotificationRecipien` or `Job::getRecipientsForFailNotification()`
+    * logs run jobs in database (can be viewed in browser as admin)
+    * send failed jobs output to config setting `maintenanceJobs.failNotificationRecipien` or `Job::getRecipientsForFailNotification()`
 
 ####Possibly incompatible Changes:
 
