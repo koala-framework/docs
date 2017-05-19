@@ -7,6 +7,25 @@
 * execute `php bootstrap.php update` to execute update scripts that update the database
 
 
+#5.0
+
+(upcoming)
+
+####New Features:
+* webpack build
+
+#4.4
+
+####New Features:
+
+* maintenance jobs log output
+  * logs run jobs in database (can be viewed in browser as admin)
+  * send failed jobs output to config setting `maintenanceJobs.failNotificationRecipien` or `Job::getRecipientsForFailNotification()`
+
+####Possibly incompatible Changes:
+
+* (*) `Kwc_Advanced_VideoPlayer_Component` and `Kwc_Advanced_AudioPlayer_Component` moved to own repository: `koala-framework/kwc-mediaelement`
+
 #4.3
 
 ####New Features:
