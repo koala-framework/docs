@@ -222,9 +222,6 @@ Change or adjust the master config for special needs in this file.
 
 On production server a tomcat running solr is recommended.
 
-####Restart Solr/Tomcat on the vpn-server
-`/www/bin/rc_tomcat restart solr`
-
 ##Access Solr
 
 ###You can open the solr web interface for debugging purposes:
