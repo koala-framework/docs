@@ -1,10 +1,10 @@
 #PARSING
 
-Checkout [https://github.com/koala-framework/kwf-trl](https://github.com/koala-framework/kwf-trl) (e.g. in your www folder)
+Add [https://github.com/koala-framework/kwf-trl](https://github.com/koala-framework/kwf-trl) to your project composer.json and run "composer update"
 
 To parse koala-framework in kwf-folder simply call
 
-`../kwf-trl/bin/trl parseKwf`
+`vendor/bin/trl parseKwf`
 
 #####But this should only be needed if you improved or added code to our koala-framework repository.
 

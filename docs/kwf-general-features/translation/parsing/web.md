@@ -6,11 +6,11 @@ Translated po files need to be present in /trl folder during build to be used.
 
 ##Parse your content
 
-Checkout [https://github.com/koala-framework/kwf-trl](https://github.com/koala-framework/kwf-trl) (e.g. in your www folder)
+Add [https://github.com/koala-framework/kwf-trl](https://github.com/koala-framework/kwf-trl) to your project composer.json and run "composer update"
 
-It does contain a script to parse your code. In your web folder just call
+It does add a script to parse your code. In your web folder just call
 
-`../kwf-trl/bin/trl parseWeb`
+`vendor/bin/trl parseWeb`
 
 This creates a po file containing every text masked with trl(...) in all of your web branches.
 
