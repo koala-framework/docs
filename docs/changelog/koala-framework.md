@@ -14,6 +14,11 @@
 ####New Features:
 * webpack build
 
+#4.5
+(upcoming)
+####New Features:
+* kwcClass (without dot) is now also supported
+
 #4.4
 
 ####New Features:
