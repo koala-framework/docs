@@ -21,6 +21,7 @@
 * maintenance jobs log output
     * logs run jobs in database (can be viewed in browser as admin)
     * send failed jobs output to config setting `maintenanceJobs.failNotificationRecipien` or `Job::getRecipientsForFailNotification()`
+* Security: possibility to restrict media uploads to mimeType, extension and size
 
 ####Possibly incompatible Changes:
 
