@@ -36,6 +36,8 @@ When uniquePrefix is activated:
         </div>
     </div>
     
+## Component.defer.js / Component.js
+    el.addClass('bemClass__subElement--modifier');
     
 ##Component.php getTemplateVars
 
