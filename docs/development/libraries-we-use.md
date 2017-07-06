@@ -1,5 +1,5 @@
 # Libraries we use
-## JS Frameworks
+## JS libraries
 | Name | Description | NPM | Version
 | :---: | :---: | :---: | :---: |
 | [Chartjs](https://github.com/chartjs/Chart.js) | Bar, Line, Radar, Pie etc. | chart.js | [![npm](https://img.shields.io/npm/v/chart.js.svg?style=flat-square)](https://www.npmjs.com/package/chart.js) |
@@ -13,7 +13,7 @@
 | [Scroll To](https://github.com/component/scroll-to) | Animated window scroll | scroll-to | [![npm](https://img.shields.io/npm/v/scroll-to.svg?style=flat-square)](https://www.npmjs.com/package/scroll-to) |
 | [Validator](https://github.com/chriso/validator.js) | String validators like email etc | validator | [![npm](https://img.shields.io/npm/v/validator.svg?style=flat-square)](https://www.npmjs.com/package/validator) |
 
-## React Frameworks
+## React libraries
 | Name | NPM | Version
 | :---: | :---: | :---: |
 | [ReactJS](https://github.com/facebook/react) | react | [![npm](https://img.shields.io/npm/v/react.svg?style=flat-square)](https://www.npmjs.com/package/react) |
@@ -31,7 +31,7 @@
 | [Immutable](https://github.com/facebook/immutable-js) | immutable | [![npm](https://img.shields.io/npm/v/immutable.svg?style=flat-square)](https://www.npmjs.com/package/immutable) |
 | [Axios](https://github.com/mzabriskie/axios) | axios | [![npm](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.com/package/axios) |
 
-## jQuery Frameworks
+## jQuery libraries
 | Name | NPM | Version
 | :---: | :---: | :---: |
 | [jQuery](https://github.com/jquery/jquery) | jquery | [![npm](https://img.shields.io/npm/v/jquery.svg?style=flat-square)](https://www.npmjs.com/package/jquery) |
@@ -39,7 +39,7 @@
 | [Backbone Marionette](https://github.com/marionettejs/backbone.marionette) | backbone.marionette | [![npm](https://img.shields.io/npm/v/backbone.marionette.svg?style=flat-square)](https://www.npmjs.com/package/backbone.marionette) |
 | [Backbone Paginator](https://github.com/backbone-paginator/backbone.paginator) | backbone.paginator | [![npm](https://img.shields.io/npm/v/backbone.paginator.svg?style=flat-square)](https://www.npmjs.com/package/backbone.paginator) |
 
-## PHP Frameworks
+## PHP libraries
 | Name | Composer | Version | Others
 | :---: | :---: | :---: | :---: |
 | [Guzzle](https://github.com/facebook/react) | guzzlehttp/guzzle | ~3.8 |
