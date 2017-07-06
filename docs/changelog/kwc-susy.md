@@ -13,3 +13,8 @@ More information about Susy is available under [Susy 2 grid styling](../../styli
 ### Susy_Kwc_TextImage_Component
 
 * Add the missing gutter between the text and the image when using 'flow around image' and aligning the image to the right.
+
+
+# 1.2
+
+* Add compatibility for Koala Framework 5.0
