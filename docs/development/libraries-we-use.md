@@ -38,6 +38,7 @@
 | [Backbone](https://github.com/jashkenas/backbone/) | backbone | [![npm](https://img.shields.io/npm/v/backbone.svg?style=flat-square)](https://www.npmjs.com/package/backbone) |
 | [Backbone Marionette](https://github.com/marionettejs/backbone.marionette) | backbone.marionette | [![npm](https://img.shields.io/npm/v/backbone.marionette.svg?style=flat-square)](https://www.npmjs.com/package/backbone.marionette) |
 | [Backbone Paginator](https://github.com/backbone-paginator/backbone.paginator) | backbone.paginator | [![npm](https://img.shields.io/npm/v/backbone.paginator.svg?style=flat-square)](https://www.npmjs.com/package/backbone.paginator) |
+| [Ingenious Select](https://github.com/koala-framework/ingeniousselectjs) | ingeniousselectjs | [![npm](https://img.shields.io/npm/v/ingeniousselectjs.svg?style=flat-square)](https://www.npmjs.com/package/ingeniousselectjs) |
 
 ## PHP libraries
 | Name | Composer | Version | Others
