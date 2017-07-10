@@ -12,6 +12,7 @@
 | [Query String](https://github.com/sindresorhus/query-string) | Parse and stringify URL | query-string | [![npm](https://img.shields.io/npm/v/query-string.svg?style=flat-square)](https://www.npmjs.com/package/query-string) |
 | [Scroll To](https://github.com/component/scroll-to) | Animated window scroll | scroll-to | [![npm](https://img.shields.io/npm/v/scroll-to.svg?style=flat-square)](https://www.npmjs.com/package/scroll-to) |
 | [Validator](https://github.com/chriso/validator.js) | String validators like email etc | validator | [![npm](https://img.shields.io/npm/v/validator.svg?style=flat-square)](https://www.npmjs.com/package/validator) |
+| [Store.js](https://github.com/marcuswestin/store.js) | cross-browser local storage + Plugins like expire, events | store | [![npm](https://img.shields.io/npm/v/store.svg?style=flat-square)](https://www.npmjs.com/package/store) |
 
 ## React libraries
 | Name | NPM | Version
