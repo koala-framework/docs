@@ -26,10 +26,10 @@
 * maintenance jobs log output
     * logs run jobs in database (can be viewed in browser as admin)
     * send failed jobs output to config setting `maintenanceJobs.failNotificationRecipien` or `Job::getRecipientsForFailNotification()`
-* Security: possibility to restrict media uploads to mimeType, extension and size
 
 ####Possibly incompatible Changes:
 
+* Security: restricted media uploads to mimeType, extension and size, by default only admin and superuser can upload files 
 * (*) `Kwc_Advanced_VideoPlayer_Component` and `Kwc_Advanced_AudioPlayer_Component` moved to own repository: `koala-framework/kwc-mediaelement`
 
 #4.3
