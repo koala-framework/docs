@@ -14,6 +14,11 @@
 ####New Features:
 * webpack build
 
+####Possibly incompatible Changes:
+
+* default ContentSender now writes best practice security headers
+
+
 #4.5
 (upcoming)
 ####New Features:
