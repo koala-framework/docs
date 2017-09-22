@@ -7,9 +7,8 @@ To output resized images or other media you can use `Kwf_Media`.
 
 As the output itself happens in a different request this is split into two parts:
 
-###1. Generating a media Url
-
-###2. Generating the media output (different http request)
+1. Generating a media Url
+2. Generating the media output (different http request)
 
 To create your own output method implement the interface `Kwf_Media_Output_Interface` in a class - 
 commonly model classes are used.
@@ -47,6 +46,10 @@ A typical getMediaOutput method looks like that:
         
 ##Possible return values
         
+Required value:
+
+* mimeType (a string containing the Mime Type of the returned media, eg. `image/jpg`)
+
 You have to return an array which contains one of the following values:
 
 * contents (a string containing the file)
