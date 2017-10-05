@@ -15,22 +15,22 @@
 * webpack build
 
 ####Possibly incompatible Changes:
+* TODO Alex: js dependencies now use npm instead of bower (eg. jQuery)
 
 
 #4.5
 (upcoming)
 ####New Features:
 * kwcClass (without dot) is now also supported
-* TODO Alex: (*) `htmlspecialchars` -> `Kwf_Utl_HtmlSpecialChars::filter($value)` (sets ENT_QUOTES flag)
+* (*) `htmlspecialchars` -> `Kwf_Utl_HtmlSpecialChars::filter($value)` (sets ENT_QUOTES flag)
 * TODO Alex: Mail templates in views/mail now can now be twig
-* TODO MichiH: `maintenanceJobs.sendFailNotification` setting (defaults to true on production, false on test)
+* `maintenanceJobs.sendFailNotification` setting (defaults to true on production, false on test)
 
 ####Possibly incompatible Changes:
 
 * Security: sessionToken removed, CRSF protection is now done by validating `X-Requested-With` Header
 * default ContentSender now writes best practice security headers (remove own headers set in `bootstrap.php`) 
-* TODO Alex: js dependencies now use npm instead of bower (eg. jQuery)
-* TODO Niko: Kwc_Form_Component: POST-fallback removed, useAjaxRequest=false removed
+* Kwc_Form_Component: POST-fallback removed, useAjaxRequest=false removed
   * use Kwc_Form_NonAjax_Component if you need useAjaxRequest=false
 
 
