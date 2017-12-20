@@ -25,3 +25,13 @@ To do that you have to modify the generators setting of the component:
     
   
 Check the parent component class to see which is the correct way.
+
+## Child Settings
+You can change the settings of a child component without creating a new class for it by using `childSettings`.
+```php
+$ret['childSettings'] = array(
+    'child_text' => array(
+        'componentName' => trlStatic('My Text Component')
+    )
+);
+```
