@@ -7,9 +7,15 @@
 * execute `php bootstrap.php update` to execute update scripts that update the database
 
 
-#5.0
+#5.1
 
 (upcoming)
+
+####New Features:
+
+* Symfony services can now implement MaintenanceJobs 
+
+#5.0
 
 ####New Features:
 * webpack build
@@ -18,8 +24,17 @@
 * TODO Alex: js dependencies now use npm instead of bower (eg. jQuery)
 
 
+
+#4.6
+
+####New Features:
+
+* repositories can now define a build step in composer.json 
+
+
+
 #4.5
-(upcoming)
+
 ####New Features:
 * kwcClass (without dot) is now also supported
 * (*) `htmlspecialchars` -> `Kwf_Utl_HtmlSpecialChars::filter($value)` (sets ENT_QUOTES flag)
