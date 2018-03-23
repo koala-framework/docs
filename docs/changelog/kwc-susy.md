@@ -3,6 +3,12 @@
 Susy is a flexible grid layout system for creating responsive websites.  
 More information about Susy is available under [Susy 2 grid styling](../../styling/susy-two-grid-styling/overview).
 
+
+# 1.2
+
+* Add compatibility for Koala Framework 5.0
+
+
 # 1.1
 
 ### Susy_Kwc_Columns_Component
@@ -13,8 +19,3 @@ More information about Susy is available under [Susy 2 grid styling](../../styli
 ### Susy_Kwc_TextImage_Component
 
 * Add the missing gutter between the text and the image when using 'flow around image' and aligning the image to the right.
-
-
-# 1.2
-
-* Add compatibility for Koala Framework 5.0
