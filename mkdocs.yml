@@ -254,6 +254,7 @@ pages:
                 - 'Styling': 'styling/general/styling.md'
                 - 'BEM': 'styling/general/bem.md'
                 - 'Z-Indices': 'styling/general/z-indices.md'
+                - 'Using external fonts': 'styling/general/using-external-fonts.md'
     - Sass:
                 - Introduction: 'styling/sass/introduction.md'
                 - Background Image Dpr2: 'styling/sass/background-image.md'

@@ -14,6 +14,7 @@
 | [Validator](https://github.com/chriso/validator.js) | String validators like email etc | validator | [![npm](https://img.shields.io/npm/v/validator.svg?style=flat-square)](https://www.npmjs.com/package/validator) |
 | [Store.js](https://github.com/marcuswestin/store.js) | cross-browser local storage + Plugins like expire, events | store | [![npm](https://img.shields.io/npm/v/store.svg?style=flat-square)](https://www.npmjs.com/package/store) |
 | [Sortable](https://github.com/RubaXa/Sortable) | Drag and Drop implementation without jQuery | sortablejs | [![npm](https://img.shields.io/npm/v/sortablejs.svg?style=flat-square)](https://www.npmjs.com/package/sortablejs) |
+| [Webfontloader](https://github.com/typekit/webfontloader) | Load webfonts | webfontloader | [![npm](https://img.shields.io/npm/v/webfontloader.svg?style=flat-square)](https://www.npmjs.com/package/webfontloader) |
 
 ## React libraries
 | Name | NPM | Version
