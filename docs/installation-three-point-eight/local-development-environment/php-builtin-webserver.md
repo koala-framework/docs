@@ -5,8 +5,8 @@
 * Php (just installed)
 * MySQL Server (running)
 * git
-* [composer](composer.md)
-* [nodejs + npm](nodejs-npm.md)
+* [composer](php-builtin-webserver/composer.md)
+* [nodejs + npm](php-builtin-webserver/nodejs-npm.md)
 
 To get the code and put it in place execute the following commands on the commandline:
 
@@ -29,6 +29,6 @@ Now it's time to start the webserver (this has to be done after every reboot):
     php -S localhost:8080 bootstrap.php
     
     
-The app is now installed and reachable in your browser under http://localhost:8080/. Now run [setup](../../setup/overview.md) to configure and create initial database.
+The app is now installed and reachable in your browser under http://localhost:8080/. Now run [setup](../setup.md) to configure and create initial database.
     
     
