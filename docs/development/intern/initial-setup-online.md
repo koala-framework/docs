@@ -1,35 +1,62 @@
-#INITIAL SETUP ONLINE
+# Initial setup online
 
-**set server.domain and server.path in config.ini to correct values (production + test section)**
+**Set server.domain and server.path in config.ini to correct values (production + test section)**
 
-##On Webflow Server
+## On Webflow Server
 
-    vps setup-online --server=test,production
-
-
-##On POI Server
-
-1. Project pushed
-2. search for provided directory (most of the time in div/)
-3. delete existing files (error-folder, index.html and also hidden files!)
-4. `$ ../library/kwfscripts/setup-web.php --section=[test|production|qa] --app-id=gitId --skip-db`
-(Important: to setup qa, test or production this sections have to be defined in config.ini)
-5. create config.local.ini with provided information
-    [production]
-    database.web.host =
-    database.web.user =
-    database.web.password =
-    database.web.dbname =
-6. On your local machine (your virtual server) in your project directory (if you need to populate the web with your test-data)
-    `$ ../library/kwfscripts/copy-data-to-git.php --skip-encrypt`
-    6.1. Do this again before every copy-data-from-git (for test and again for prod if you need initial test-data on prod)
-7. At POI-Client (in Putty again):
-    `$ ../library/kwfscripts/copy-data-from-git.php --skip-encrypt`
-8. `$ kwf create-users`
-9. TEST if everything works at this domain!
+##### 1. Run the setup-online command to build your project for the first time
+```bash
+$ vps setup-online --server=test,production
+```
 
 
-###Solr
+## On POI Server
+
+##### 1. Run the setup-online command to build your project for the first time
+```bash
+$ vps setup-online --server=test,production
+```
+
+##### 2. Search for projects directory on the server (most of the time in div/)
+
+##### 3. Delete all existing files inside this folder (error-folder, index.html and also hidden files)
+
+##### 4. Setup the project on the server
+
+```bash
+$ ../library/kwfscripts/setup-web.php --section=[test|production|qa] --app-id=[git-id] --skip-db
+```
+
+The chosen section (test, qa or production) has to be defined in `config.ini`.
+
+
+##### 5. Create a `config.local.ini` with the database information
+
+```ini
+[production]
+database.web.host =
+database.web.user =
+database.web.password =
+database.web.dbname =
+```
+
+##### 6. Copy your local data to the git-server (from your local virtual server)
+```bash
+$ ../library/kwfscripts/copy-data-to-git.php --skip-encrypt
+```
+
+This needs to be done every time before running `copy-data-from-git`.
+
+##### 7. Copy the data from the git-server to the POI-server
+```bash
+$ ../library/kwfscripts/copy-data-from-git.php --skip-encrypt
+```
+
+
+##### 8. Add the projects [process-control](../../kwf-general-features/process-control.md) to the servers cronjobs 
+
+
+### Solr
 
 workflow on POI-Server
 
