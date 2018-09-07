@@ -240,10 +240,7 @@ pages:
                 - 'Examples': 'kwc-cms/subroot/examples.md'
                 - 'Navigation with Subroots': 'kwc-cms/subroot/navigation-with-subroots.md'
                 - 'Base Properties': 'kwc-cms/subroot/base-properties.md'
-    - Statistics:
-                - 'Overview': 'kwc-cms/statistics.md'
-                - 'Google Analytics': 'kwc-cms/statistics/google-analytics.md'
-                - 'Piwik': 'kwc-cms/statistics/piwik.md'
+    - Statistics: 'kwc-cms/statistics.md'
 
     - Maintenance Jobs: 'kwc-cms/maintenance-jobs.md'
 
