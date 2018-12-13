@@ -7,22 +7,50 @@
 * execute `php bootstrap.php update` to execute update scripts that update the database
 
 
-#5.1
+#5.2
 
 (upcoming)
 
 ####New Features:
 
-* Symfony services can now implement MaintenanceJobs 
+* Change db-connection configuration to support utf8mb4
+* Refactor image scaling into Scaler backends and introduce a RemoteService backend
+* Add Symfony Image Normalizer
+
+
+####Possibly incompatible Changes:
+* Removed Base-Url functionality
+* Symfony-Component Normalizer now deliver absolute URLs
+
+
+#5.1
+
+####New Features:
+
+* Symfony services can now implement MaintenanceJobs
+* Basic API-Content Implementation
+* Added Kwf_Component_Plugin_Interface_Redirect
+* Support for KWF-Authorization via Cookie
+* Update-Provider for Symfony
+* Add Error-Collect Validator for Symfony
+* Add php bootstrap.php symfony command
+* Support for decoupled child projects
+* Add Kwf_Util_Symfony::getKernel()
+
+####Possibly incompatible Changes:
+* Newsletter has been moved to own package
+* Remove Shortcut-Url Feature
+
 
 #5.0
 
 ####New Features:
-* webpack build
+* Webpack Build
 
 ####Possibly incompatible Changes:
-* TODO Alex: js dependencies now use npm instead of bower (eg. jQuery)
-
+* Webpack Build
+* js dependencies now use npm instead of bower (eg. jQuery)
+* Shop not maintained anymore, migrate to https://github.com/koala-framework/kwc-shop instead
 
 
 #4.6
