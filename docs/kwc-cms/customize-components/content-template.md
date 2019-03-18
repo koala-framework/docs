@@ -1,64 +1,61 @@
-#STYLING - TEMPLATE
+# Templates
 
-For changing the Html output of a component create a Component.tpl or a `Component.twig` file in the component folder. 
-It will be picked up automatically. Templates from parent component classes can't be used if a component has it's own template.
+To change a component's HTML output, you can create a `Component.twig` file in the component's folder.  
+The file will be used after the next build of the project.
 
-To allow styling scoped to this component you should always include a div with `class="$this->cssClass"` in `Component.tpl` 
-or with `class="{{ cssClass }}"` in `Component.twig` file as outer element.
+For detailed information on how to use the twig template-engine, you can read the <a href="https://twig.symfony.com/" target="_blank">official twig-documentation</a>.
 
-The templates are rendered using `Zend_View`. You can add variables to the template by implementing `getTemplateVars` in the 
-Php class.
+## Example: Component.twig
+In the `Component.twig` you have access to a variable `rootElementClass`.  
+This is a class-name unique to your component.
 
-###Tpl - Example:
+```twig
+<div class="{{ rootElementClass }}">
+    <h1>Example content</h1>
+</div>
+```
 
-    <div class="<?=$this->cssClass?>
-        <h1>foo</h1>
-    </div>
-    
-###Twig - Example:
+## Styling the template
+To style the html of your component, you can add a `Component.scss` file.  
+You can then add your styles to the css-selector `.kwcClass`, this will reference the `rootElementClass` set in your `Component.twig`. 
+ 
+```scss
+.kwcClass {
+    // Styles for the html-element with the class "rootElementClass".
+}
+```
 
-    <div class="{{ cssClass }}">
-            <h1>Some content</h1>
-    </div>
-    
-###Twig - Blocks
+## Defining variables for your template
 
-With a block we can change parts of a template. It's a better approach than to copy the whole template.
+You can access anything returned by the `getTemplateVars()` function of your `Component.php` like follows: 
 
-    <div class="{{ cssClass }}">
-        {% block replaceableContent %}
-            <h1>Some content you can overwrite in a Childcomponent</h1>
-        {% endblock %}
-    </div>
-    
-    
-###Twig - Overwrite parts of a template:
+```php
+public function getTemplateVars(Kwf_Component_Renderer_Abstract $renderer)
+{
+    $ret = parent::getTemplateVars($renderer);
+    $ret['myText'] = "Some text";
+    return $ret;
+}
+```
 
-To change only parts of a parent template by using the blockelements, simple make a Component.twig and extend from 
-the template you need and overwrite the blockelement you want to change. It's a better approach than copy the whole 
-template and overwrite it.
+```twig
+<div class="{{ rootElementClass }}">
+    {{ myText }}
+</div>
+```
 
-    {% extends renderer.getComponentTemplate("Kwc_Menu_Mobile_Component") %}
-     
-    <div class="{{ cssClass }}">
-        ...
-    </div>
-    
-    
-###Twig - Php Variables:
+You can also access anything in the `placeholder` array returned in the `getSettings()` function of your `Component.php` like follows:
+```php
+public static function getSettings($param = null)
+{
+    $ret = parent::getSettings($param);
+    $ret['placeholder']['myText'] = "Some text";
+    return $ret;
+}
+```
 
-Variables defined in the `getSettings()` function like `$ret['placeholder']['menuLink'] = trlKwfStatic('Menu');` 
-are accessible like that.
-
-    <div class="{{ cssClass }}">
-        {{ placeholder.menuLink }}
-    </div>
-    
-
-###Twig - Php Variables:
-
-Variables defined in the `getTemplateVars()` function like `$ret['title'] = 'title';` are accessible like that.
-
-    <div class="{{ cssClass }}">
-        {{ title }}
-    </div>
+```twig
+<div class="{{ rootElementClass }}">
+    {{ placeholder.myText }}
+</div>
+```
