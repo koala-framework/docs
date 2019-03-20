@@ -7,20 +7,27 @@
 * execute `php bootstrap.php update` to execute update scripts that update the database
 
 
-#5.2
+#5.3
 
 (upcoming)
+
+#5.2
 
 ####New Features:
 
 * Change db-connection configuration to support utf8mb4
 * Refactor image scaling into Scaler backends and introduce a RemoteService backend
-* Add Symfony Image Normalizer
+* Added Symfony Image Normalizer
+* Added skipPagesMeta-flag
+* No filesystem access when generating media urls
 
 
 ####Possibly incompatible Changes:
 * Removed Base-Url functionality
 * Symfony-Component Normalizer now deliver absolute URLs
+* Moved Kwc_Advanced_IntegratorTemplate_Component into own package
+* Removed Legacy Assets Build (already replaced by Webpack since 5.0)
+* Build Process updated to Webpack 4
 
 
 #5.1
