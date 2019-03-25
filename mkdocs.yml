@@ -285,6 +285,7 @@ pages:
     - Unit Tests: 'development/unit-tests.md'
     - Windows Development: 'development/windows-development.md'
     - Intern:
+              - 'Pre Commit Hooks': 'development/intern/pre-commit-hooks.md'
               - 'Clone existing Web': 'development/intern/clone-existing-web.md'
               - 'Create new Web': 'development/intern/create-new-web.md'
               - 'vps commands': 'development/intern/vps-commands.md'
