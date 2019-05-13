@@ -158,6 +158,8 @@ pages:
                 - 'ImageEnlarge': 'kwc-cms/standard-components/image-enlarge.md'
                 - 'Html': 'kwc-cms/standard-components/html.md'
                 - 'Space': 'kwc-cms/standard-components/space.md'
+    - Advanced Components:
+                - 'Google Maps': 'kwc-cms/advanced-components/google-maps.md'
     - Customize Components:
                 - 'Overview': 'kwc-cms/customize-components.md'
                 - 'Inherit Component': 'kwc-cms/customize-components/inherit-component.md'
