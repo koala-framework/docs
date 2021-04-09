@@ -215,6 +215,7 @@ pages:
                 - 'Categories': 'kwc-cms/newsletter/categories.md'
                 - 'Recipients': 'kwc-cms/newsletter/recipients.md'
                 - 'Create Custom Components': 'kwc-cms/newsletter/create-custom-components.md'
+                - 'Import Newsletter Subscribers (CLI)': 'kwc-cms/newsletter/cli-subscriber-import.md'
     - Forms:
                 - 'Wizard Component': 'kwc-cms/forms/wizard-component.md'
 
