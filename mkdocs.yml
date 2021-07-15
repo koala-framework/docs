@@ -1,7 +1,9 @@
 site_name: Koala Framework Dokumentation
-theme_dir: kwf-theme
+theme:
+    name: null
+    custom_dir: 'kwf-theme/'
 
-pages:
+nav:
 - Documentation: 'index.md'
 - Installation (3.8+):
     - Overview: 'installation-three-point-eight/overview.md'

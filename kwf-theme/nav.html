@@ -12,7 +12,7 @@
             </button>
 
             <!-- Main title -->
-            <a class="navbar-brand" href="{{ homepage_url }}">{{ site_name }}</a>
+            <a class="navbar-brand" href="/{{ homepage_url }}">{{ site_name }}</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -31,7 +31,7 @@
                 </li>
             {% else %}
                 <li {% if nav_item.active %}class="active"{% endif %}>
-                    <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+                    <a href="/{{ nav_item.url }}">{{ nav_item.title }}</a>
                 </li>
             {% endif %}
             {% endfor %}
@@ -39,8 +39,8 @@
 
             <!-- Search, Navigation and Repo links -->
             <ul class="nav navbar-nav navbar-right">
-                <li class="navbar-right__prev{% if not previous_page %} disabled{% endif %}">
-                    <a rel="next" {% if previous_page %}href="{{ previous_page.url }}"{% endif %}>
+                <li class="navbar-right__prev{% if not page.previous_page %} disabled{% endif %}">
+                    <a rel="next" {% if page.previous_page %}href="/{{ page.previous_page.url }}"{% endif %}>
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
@@ -49,8 +49,8 @@
                         <i class="fa fa-search"></i> Search
                     </a>
                 </li>
-                <li class="navbar-right__next{% if not next_page %} disabled{% endif %}">
-                    <a rel="prev" {% if next_page %}href="{{ next_page.url }}"{% endif %}>
+                <li class="navbar-right__next{% if not page.next_page %} disabled{% endif %}">
+                    <a rel="prev" {% if page.next_page %}href="/{{ page.next_page.url }}"{% endif %}>
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
