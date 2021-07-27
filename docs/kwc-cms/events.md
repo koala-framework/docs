@@ -17,23 +17,23 @@ If you take a short look into `Kwc_Abstract_Events` you will find a example getL
             $ret = array();
             $ret[] = array(
                 'class' => 'ExampleModel',
-                'event' => 'Kwf_Component_Event_Row_Updated',
+                'event' => 'Kwf_Events_Event_Row_Updated',
                 'callback' => 'onRowUpdate'
             );
             $ret[] = array(
                 'class' => 'ExampleModel',
-                'event' => 'Kwf_Component_Event_Row_Inserted',
+                'event' => 'Kwf_Events_Event_Row_Inserted',
                 'callback' => 'onRowInsert'
             );
             return $ret;
         }
      
-        public function onRowUpdate(Kwf_Component_Event_Row_Updated $event)
+        public function onRowUpdate(Kwf_Events_Event_Row_Updated $event)
         {
             // do your logic
         }
      
-        public function onRowInsert(Kwf_Component_Event_Row_Inserted $event)
+        public function onRowInsert(Kwf_Events_Event_Row_Inserted $event)
         {
             // do your logic
         }
