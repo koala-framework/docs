@@ -1,4 +1,4 @@
-# Import Newsletter Subscribers (CLI)
+# Import newsletter subscribers using CLI
 
 Import newsletter subscribers using the command-line in projects using [kwc-newsletter](https://github.com/koala-framework/kwc-newsletter).
 
