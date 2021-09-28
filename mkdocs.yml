@@ -25,7 +25,7 @@ nav:
 
     - Maintenance: 'installation-three-point-eight/maintenance.md'
 
-- Kwf(General Features):
+- Kwf (General Features):
     - Config:
                 - 'Overview': 'kwf-general-features/config.md'
                 - 'Https': 'kwf-general-features/config/https.md'
@@ -208,16 +208,6 @@ nav:
                 - 'Placeholders': 'kwc-cms/kwc-mail-component/placeholders.md'
                 - 'Redirect': 'kwc-cms/kwc-mail-component/redirect.md'
                 - 'Kwc_Mail_Editable_Component': 'kwc-cms/kwc-mail-component/kwc-mail-editable-component.md'
-    - Newsletter:
-                - 'Overview': 'kwc-cms/newsletter.md'
-                - 'Quick Start': 'kwc-cms/newsletter/quick-start.md'
-                - 'Structure': 'kwc-cms/newsletter/structure.md'
-                - 'Subscribe': 'kwc-cms/newsletter/subscribe.md'
-                - 'Sending': 'kwc-cms/newsletter/sending.md'
-                - 'Categories': 'kwc-cms/newsletter/categories.md'
-                - 'Recipients': 'kwc-cms/newsletter/recipients.md'
-                - 'Create Custom Components': 'kwc-cms/newsletter/create-custom-components.md'
-                - 'Import Newsletter Subscribers (CLI)': 'kwc-cms/newsletter/cli-subscriber-import.md'
     - Forms:
                 - 'Wizard Component': 'kwc-cms/forms/wizard-component.md'
 
@@ -250,6 +240,19 @@ nav:
     - Maintenance Jobs: 'kwc-cms/maintenance-jobs.md'
 
     - Domain configurations: 'kwc-cms/domain-configurations.md'
+
+- Additional Packages:
+      - Kwc Newsletter:
+            - 'Overview': 'additional-packages/kwc-newsletter/overview.md'
+            - 'Quick Start': 'additional-packages/kwc-newsletter/quick-start.md'
+            - 'Structure': 'additional-packages/kwc-newsletter/structure.md'
+            - 'Subscribe': 'additional-packages/kwc-newsletter/subscribe.md'
+            - 'Sending': 'additional-packages/kwc-newsletter/sending.md'
+            - 'Categories': 'additional-packages/kwc-newsletter/categories.md'
+            - 'Recipients': 'additional-packages/kwc-newsletter/recipients.md'
+            - 'Create Custom Components': 'additional-packages/kwc-newsletter/create-custom-components.md'
+            - 'Import Newsletter Subscribers (CLI)': 'additional-packages/kwc-newsletter/import-newsletter-subscribers-cli.md'
+            - 'Delete newsletter subscribers (CLI)': 'additional-packages/kwc-newsletter/delete-newsletter-subscribers-cli.md'
 
 - Styling:
     - General:
@@ -313,4 +316,3 @@ nav:
               - 'Mail Testing': 'development/intern/mail-testing.md'
               - Packages:
                     - 'poi-shop': 'development/intern/packages/poi-shop.md'
-
