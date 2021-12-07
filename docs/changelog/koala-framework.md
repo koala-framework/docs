@@ -6,6 +6,16 @@
 * execute `composer update`, `php bootstrap.php clear-cache` and `php bootstrap.php` build and fix any errors you get
 * execute `php bootstrap.php update` to execute update scripts that update the database
 
+#5.4
+
+####New Features:
+
+* Added `_addMediaUploadAllowList()` and `_getMediaUploadAllowList()` to Acl
+
+
+####Possibly incompatible Changes:
+
+* Removed Acl resource `kwf_media_upload_any`
 
 #5.3
 
